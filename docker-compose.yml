@@ -18,5 +18,6 @@ services:
         options:
             max-size: "8M"
             max-file: "5"
+    command: sh -c "yarn build && yarn start"
 volumes:
   node_modules: {}
