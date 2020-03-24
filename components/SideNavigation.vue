@@ -57,7 +57,11 @@
                     {{ $t('サイト運営') }}
                 </div>
                 <div>
-                    <a href="https://www.codeforaomori.org/">
+                    <a
+                        href="https://www.codeforaomori.org/"
+                        target="_blank"
+                        rel="noopener"
+                    >
                         <img src="/cfa_logo.png" alt="Code for Aomori" />
                     </a>
                 </div>
