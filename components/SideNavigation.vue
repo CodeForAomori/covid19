@@ -39,49 +39,31 @@
 
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-BaseLink">
-            <div class="SideNavigation-BaseLinkHeader">
-                {{ $t('リンク') }}
+            <div class="SideNavigation-BaseLinkBlock">
+                <div class="SideNavigation-BaseLinkHeader">
+                    {{ $t('リンク') }}
+                </div>
+                <div>
+                    <a
+                        href="http://www.stopcovid19.jp"
+                        target="_blank"
+                        rel="noopener"
+                    >{{ $t('全国版情報サイトCOVID-19 Japan') }}
+                    </a>
+                </div>
             </div>
-            <div>
-                <a
-                    href="http://www.stopcovid19.jp"
-                    target="_blank"
-                    rel="noopener"
-                >{{ $t('全国版情報サイトCOVID-19 Japan') }}
-                </a>
-            </div>
-            <div class="SideNavigation-BaseLinkHeader">
-                {{ $t('サイト運営') }}
-            </div>
-            <div>
-                <a href="http://www.stopcovid19.jp">
-                    <img src="/cfa_logo.png" alt="Code for Aomori" />
-                </a>
+            <div class="SideNavigation-BaseLinkBlock">
+                <div class="SideNavigation-BaseLinkHeader">
+                    {{ $t('サイト運営') }}
+                </div>
+                <div>
+                    <a href="http://www.stopcovid19.jp">
+                        <img src="/cfa_logo.png" alt="Code for Aomori" />
+                    </a>
+                </div>
             </div>
         </div>
         <div class="SideNavigation-Social">
-          <a
-            href="https://twitter.com/AomoriPref"
-            target="_blank"
-            rel="noopener"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/twitter.webp" type="image/webp" />
-              <img src="/twitter.png" alt="Twitter" />
-            </picture>
-          </a>
-          <a
-            href="https://www.facebook.com/tochokoho"
-            target="_blank"
-            rel="noopener"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/facebook.webp" type="image/webp" />
-              <img src="/facebook.png" alt="Facebook" />
-            </picture>
-          </a>
           <a
             href="https://github.com/CodeForAomori/covid19"
             target="_blank"
@@ -399,28 +381,21 @@ export default Vue.extend({
     $color: hsl(0, 0, 10);
 
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 48px;
 
-    .SideNavigation-BaseLinkHeader {
-        color: $color;
-        background: hsl(0, 0, 100);
+    .SideNavigation-BaseLinkBlock {
+        margin-bottom: 24px;
 
-        &::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            right: 0;
-            border-top: solid 1px hsl(0, 0, 10);
-            width: 100%;
-            height: 1px;
+        .SideNavigation-BaseLinkHeader {
+            color: $color;
         }
-    }
-    a {
-        color: $color;
-    }
-    img {
-        width: 100%;
-        max-width: 200px;
+        a {
+            color: $color;
+        }
+        img {
+            width: 100%;
+            max-width: 200px;
+        }
     }
 }
 </style>

@@ -17,7 +17,7 @@
           {{ $t('手洗い、咳エチケット等により、感染予防に努めてください。')
           }}<br />
           <a
-            href="https://tokyodouga.jp/lViN9C_BS-0.html"
+            href="https://www.mhlw.go.jp/content/10900000/000596861.pdf"
             target="_blank"
             rel="noopener"
             >{{ $t('【参考】感染症予防のための正しい手洗い方法（動画）') }}</a
@@ -40,7 +40,7 @@
           {{ $t('各保健所の電話番号について') }}
           <br />
           <a
-            href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+            href="https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
             target="_blank"
             rel="noopener"
             >{{ $t('「新型コロナウイルス感染症にかかる相談窓口について」') }}</a
