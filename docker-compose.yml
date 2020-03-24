@@ -1,4 +1,4 @@
-version: "3"
+version: "2"
 services:
   app:
     container_name: covid19
@@ -11,5 +11,12 @@ services:
     volumes:
         - .:/app
         - node_modules:/app/node_modules
+    restart: always
+    shm_size: 1g
+    logging:
+        driver: "json-file"
+        options:
+            max-size: "8M"
+            max-file: "5"
 volumes:
   node_modules: {}
