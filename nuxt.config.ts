@@ -118,6 +118,7 @@ const config: Configuration = {
     id: 'UA-159417676-1'
   },
   build: {
+    standalone: true,
     postcss: {
       plugins: [
         autoprefixer({ grid: 'autoplace' }),
