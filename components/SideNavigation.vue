@@ -57,7 +57,7 @@
                     {{ $t('サイト運営') }}
                 </div>
                 <div>
-                    <a href="http://www.stopcovid19.jp">
+                    <a href="https://www.codeforaomori.org/">
                         <img src="/cfa_logo.png" alt="Code for Aomori" />
                     </a>
                 </div>

@@ -4,8 +4,23 @@
             "date": "2020\/03\/24",
             "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html",
             "text": "新型コロナウイルス感染症について"
-        },
-        {
+        }
+        ,{
+            "date": "2020\/03\/24",
+            "url": "https://www.pref.aomori.lg.jp/life/shoku/server_le_repas_en_securite.html",
+            "text": "会食等での新型コロナウイルス感染症の拡大防止のために"
+        }
+        ,{
+            "date": "2020\/03\/24",
+            "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html",
+            "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について"
+        }
+        ,{
+            "date": "2020\/03\/23",
+            "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html",
+            "text": "新型コロナウイルス感染症に係る危機対策本部の設置及び危機対策本部会議の開催について"
+        }
+        ,{
             "date": "2020\/03\/23",
             "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html",
             "text": "新型コロナウイルス感染症に係る危機対策本部の設置及び危機対策本部会議の開催について"
@@ -19,26 +34,6 @@
             "date": "2020\/03\/4",
             "url": "https://www.pref.aomori.lg.jp/soshiki/gikai/bocho_coronavirus.html",
             "text": "議会を傍聴される皆様へ（新型コロナウイルス感染予防について）"
-        }
-        ,{
-            "date": "2020\/03\/24",
-            "url": "https://www.pref.aomori.lg.jp/life/shoku/server_le_repas_en_securite.html",
-            "text": "会食等での新型コロナウイルス感染症の拡大防止のために"
-        }
-        ,{
-            "date": "2020\/02\/17",
-            "url": "https://www.pref.aomori.lg.jp/soshiki/kkokusai/kanko/20200217_coronavirus.html",
-            "text": "新型コロナウイルス感染症について（観光関連）"
-        }
-        ,{
-            "date": "2020\/03\/23",
-            "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html",
-            "text": "新型コロナウイルス感染症に係る危機対策本部の設置及び危機対策本部会議の開催について"
-        }
-        ,{
-            "date": "2020\/03\/24",
-            "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html",
-            "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について"
         }
     ]
 }
