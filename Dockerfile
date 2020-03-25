@@ -10,6 +10,9 @@ RUN yarn install
 
 COPY . $PROJECT_ROOTDIR
 
+RUN apk --no-cache add tzdata && \
+    cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+
 EXPOSE 3000
 ENV HOST 0.0.0.0
 
