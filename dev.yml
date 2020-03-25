@@ -19,5 +19,8 @@ services:
             max-size: "8M"
             max-file: "5"
     command: yarn dev
+    environment:
+        - TZ=Asia/Tokyo
+        - LANG=ja_JP.UTF-8
 volumes:
   node_modules: {}
