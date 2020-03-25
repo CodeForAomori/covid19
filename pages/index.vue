@@ -17,6 +17,7 @@
       <confirmed-cases-details-card />
       <confirmed-cases-attributes-card />
       <confirmed-cases-number-card />
+      <patients-and-sickbeds-card />
     </v-row>
   </div>
 </template>
@@ -33,6 +34,7 @@ import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsC
 import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
+import PatientsAndSickbedsCard from '@/components/cards/PatientsAndSickbedsCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
 import InspectionPersonsNumberCard from '@/components/cards/InspectionPersonsNumberCard.vue'
 import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
@@ -52,6 +54,7 @@ export default Vue.extend({
     TestedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
+    PatientsAndSickbedsCard,
     TestedNumberCard,
     InspectionPersonsNumberCard,
     TelephoneAdvisoryReportsNumberCard,
