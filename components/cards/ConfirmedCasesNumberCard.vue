@@ -22,7 +22,7 @@ export default {
   },
   data() {
     // 感染者数グラフ
-    const patientsGraph = formatGraph(Data.patients_summary.data)
+    const patientsGraph = formatGraph(Data.patients_summary.data, false)
 
     const data = {
       Data,
