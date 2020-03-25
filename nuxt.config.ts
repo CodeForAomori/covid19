@@ -21,22 +21,12 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp'
+        content: 'https://covid19.codeforaomori.org/'
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image'
-      },
-      {
-        hid: 'twitter:site',
-        name: 'twitter:site',
-        content: '@tokyo_bousai'
-      },
-      {
-        hid: 'twitter:creator',
-        name: 'twitter:creator',
-        content: '@tokyo_bousai'
       },
       {
         hid: 'fb:app_id',
