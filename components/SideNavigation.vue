@@ -153,7 +153,12 @@ export default Vue.extend({
         },
         {
           title: this.$t('青森県公式ホームページ'),
-          link: 'https://www.pref.aomori.lg.jp/'
+          link: 'https://www.pref.aomori.lg.jp/',
+          divider: true
+        },
+        {
+          title: this.$t('コロナウイルス対策動画'),
+          link: this.localePath('/video')
         }
       ]
     }
