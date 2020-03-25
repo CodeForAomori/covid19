@@ -158,8 +158,7 @@ export default Vue.extend({
         },
         {
           title: this.$t('コロナウイルス対策動画'),
-          link: this.localePath('/video'),
-          divider: true
+          link: this.localePath('/video')
         }
       ]
     }
