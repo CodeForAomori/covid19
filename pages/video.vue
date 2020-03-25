@@ -5,12 +5,15 @@
     </page-header>
 
     <div class="Video-File">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/WRhp0ZGVh0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <a
         href="https://www.youtube.com/watch?v=WRhp0ZGVh0U"
         target="_blank"
         rel="noopener"
       >
+        <img
+          src="https://img.youtube.com/vi/WRhp0ZGVh0U/hqdefault.jpg"
+          alt="やってみよう！新型コロナウイルス感染症対策　みんなでできること"
+        >
         <div>やってみよう！新型コロナウイルス感染症対策　みんなでできること</div>
       </a>
     </div>
