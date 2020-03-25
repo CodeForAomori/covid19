@@ -92,7 +92,7 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          2020 Tokyo Metropolitan Government
+          2020 Code for Aomori
         </small>
       </footer>
     </div>
