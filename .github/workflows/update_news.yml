@@ -1,0 +1,53 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  build-run-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.0.0
+        with:
+          repository: CodeForAomori/covid19_aomori_news_to_json
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Build & Run
+        run: |
+          npm install -g yarn
+          yarn
+          yarn build
+          yarn start
+
+      - name: evacuation news.json
+        run: |
+          pwd
+          cp src/.json/news.json ../
+
+      - name: Checkout
+        uses: actions/checkout@v2.0.0
+        with:
+          repository: CodeForAomori/covid19
+
+      - name: update news.json
+        run: |
+          cp ../news.json data/
+
+      - name: Commit files
+        run: |
+          git config --local user.email "hodade@gmail.com"
+          git config --local user.name "hodade bot"
+          git status | grep modified && git add src/.json && git commit -v -m "[Bot] GitHub Actions - auto run" || true
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
