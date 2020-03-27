@@ -105,7 +105,7 @@ const config: Configuration = {
     }
   },
   googleAnalytics: {
-    id: 'UA-159417676-1'
+    id: 'UA-161827414-1'
   },
   build: {
     standalone: true,
