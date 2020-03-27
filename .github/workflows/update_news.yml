@@ -51,3 +51,5 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          remote: origin
+          remote-ref: aomori_development
