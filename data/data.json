@@ -166,7 +166,22 @@
             }
         ]
     },
-    "lastUpdate": "2020\/03\/26 00:00",
+    "inspection_status_simple": {
+        "date": "2020\/03\/26",
+        "attr": "検査件数",
+        "value": 129,
+        "children": [
+            {
+                "attr": "陽性",
+                "value": 6
+            },
+            {
+                "attr": "陰性",
+                "value": 123
+            }
+        ]
+    },
+    "lastUpdate": "2020\/03\/27 18:00",
     "main_summary": {
         "attr": "検査実施人数",
         "value": 129,
