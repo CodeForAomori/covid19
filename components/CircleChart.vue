@@ -74,7 +74,7 @@ export default {
       }
     },
     displayData() {
-      const colorArray = ['#008830', '#979797']
+      const colorArray = ['#979797','#008830']
       return {
         labels: this.chartData.map(d => {
           return d.label
