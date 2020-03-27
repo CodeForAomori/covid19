@@ -166,10 +166,10 @@
             }
         ]
     },
-    "lastUpdate": "2020\/03\/25 12:00",
+    "lastUpdate": "2020\/03\/26 00:00",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 101,
+        "value": 129,
         "children": [
             {
                 "attr": "陽性患者数",
@@ -177,7 +177,7 @@
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 2,
+                        "value": 4,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
@@ -203,9 +203,9 @@
     },
     "sickbeds_summary": {
        "data": {
-         "入院患者数": 2,
-         "残り病床数": 27
+         "入院患者数": 4,
+         "残り病床数": 25
         },
-       "last_update": "2020/03/25 18:00"
+       "last_update": "2020/03/25 00:00"
     }
 }
