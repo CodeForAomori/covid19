@@ -187,17 +187,17 @@
         ]
     },
     "inspection_status_simple": {
-        "date": "2020\/03\/26",
+        "date": "2020\/03\/29",
         "attr": "検査件数",
-        "value": 129,
+        "value": 145,
         "children": [
             {
                 "attr": "陽性",
-                "value": 6
+                "value": 7
             },
             {
                 "attr": "陰性",
-                "value": 123
+                "value": 138
             }
         ]
     },
