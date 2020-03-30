@@ -56,5 +56,5 @@ jobs:
           # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
           github_token: $\{{ secrets.GITHUB_TOKEN }}
           repository: CodeForAomori/covid19
-          branch: aomori_poroduction
+          branch: aomori_production
       
