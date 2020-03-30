@@ -37,6 +37,7 @@ jobs:
         uses: actions/checkout@v2.0.0
         with:
           repository: CodeForAomori/covid19
+          ref: aomori_production
 
       - name: update news.json
         run: |
@@ -51,3 +52,5 @@ jobs:
 
       - name: Push changes
         uses: actions-go/push@v1
+        with:
+          ref: aomori_production
