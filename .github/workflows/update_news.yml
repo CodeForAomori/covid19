@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@v2.0.0
         with:
           repository: CodeForAomori/covid19
-          ref: aomori_development
+          ref: aomori_production
 
       - name: update news.json
         run: |
