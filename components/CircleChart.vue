@@ -1,5 +1,13 @@
 <template>
   <data-view :title="title" :title-id="titleId" :date="date" :url="url">
+    <template v-slot:description>
+      <div v-if="descriptions && descriptions.length > 0">
+        <div v-for="text in descriptions">
+          {{ $t('※') }} {{ $t(text) }}
+        </div>
+      </div>
+    </template>
+
     <pie-chart
       :chart-id="chartId"
       :chart-data="displayData"
@@ -61,6 +69,11 @@ export default {
       type: String,
       required: false,
       default: ''
+    },
+    descriptions: {
+      type: Array,
+      required: false,
+      default: () => []
     }
   },
   computed: {

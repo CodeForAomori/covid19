@@ -7,6 +7,7 @@
         :date="Data.sickbeds_summary.last_update"
         :unit="'床'"
         :info="'総病床数'"
+        :descriptions="descriptions"
       />
   </v-col>
 </template>
@@ -23,10 +24,14 @@ export default {
   },
   data() {
     const patientsGraph = formatVariableGraph(Data.sickbeds_summary.data)
+    const descriptions = [
+        '病床数は新型コロナウイルス感染者専用ではなく、他の感染症でも利用されるため、あくまで現時点での目安となります。',
+    ];
 
     const data = {
       Data,
-      patientsGraph
+      patientsGraph,
+      descriptions
     }
     return data
   }
