@@ -7,6 +7,7 @@
         :date="Data.sickbeds_summary.last_update"
         :unit="'床'"
         :info="'総病床数'"
+        :descriptions="descriptions"
       />
   </v-col>
 </template>
@@ -23,10 +24,13 @@ export default {
   },
   data() {
     const patientsGraph = formatVariableGraph(Data.sickbeds_summary.data)
+    const descriptions = [
+    ];
 
     const data = {
       Data,
-      patientsGraph
+      patientsGraph,
+      descriptions
     }
     return data
   }
