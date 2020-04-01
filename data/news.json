@@ -1,9 +1,3 @@
 {
-  "newsItems": [
-    {
-      "date": "#N/A",
-      "text": "新型コロナウイルス感染症について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
-    }
-  ]
+  "newsItems": []
 }
