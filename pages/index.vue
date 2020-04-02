@@ -14,7 +14,7 @@
     </div>
     <whats-new class="mb-4" :items="newsItems" />
     <v-row class="DataBlock">
-      <confirmed-cases-details-card />
+      <!-- <confirmed-cases-details-card /> -->
       <confirmed-cases-attributes-card />
       <confirmed-cases-number-card />
       <patients-and-sickbeds-card />
