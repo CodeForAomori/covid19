@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import Data from '@/data/sickbeds_summary.json'
 import CircleChart from '@/components/CircleChart'
 import formatVariableGraph from '@/utils/formatVariableGraph'
 
