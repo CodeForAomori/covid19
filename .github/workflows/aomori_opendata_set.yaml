@@ -33,6 +33,7 @@ jobs:
           ls -la json
 
       - name: mv json
+        run: |
           mv ./json/*.json ../
           ls -la ../
         
