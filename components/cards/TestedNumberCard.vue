@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
 import Inspection from '@/data/inspection.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import dayjs from 'dayjs'
