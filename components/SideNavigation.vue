@@ -48,7 +48,9 @@
                         href="http://www.stopcovid19.jp"
                         target="_blank"
                         rel="noopener"
-                    >{{ $t('全国版情報サイトCOVID-19 Japan') }}
+                    >
+                        <img src="/covid19_japan.jpg" alt="全国版情報サイトCOVID-19 Japan" />
+                        <div>{{ $t('全国版情報サイトCOVID-19 Japan') }}</div>
                     </a>
                 </div>
             </div>
