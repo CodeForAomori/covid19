@@ -16,8 +16,10 @@
 
 <script>
 import Consult from '@/data/consult.json'
+import ConsultDataset from '@/data/_consult.json'
 import formatGraph from '@/utils/formatGraph'
 import TimeBarChart from '@/components/TimeBarChart.vue'
+import dayjs from 'dayjs'
 
 export default {
   components: {
@@ -25,15 +27,15 @@ export default {
   },
   data() {
     // 帰国者・接触者 電話相談センター 相談件数
-    const querentsGraph = formatGraph(Consult.datasets.map(v => ({
-      '日付': v['受付_年月日'],
+    const querentsGraph = formatGraph(ConsultDataset.map(v => ({
+      '日付': dayjs(v['受付_年月日'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY/MM/DD'),
       '曜日': '',
-      '9-17時': v['相談件数'],
-      '17-翌9時': v['相談件数'],
-      'date': v['受付_年月日'],
+      '9-17時': Number(v['相談件数']),
+      '17-翌9時': Number(v['相談件数']),
+      'date': dayjs(v['受付_年月日'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY/MM/DD'),
       'w': 0,
-      'short_date': v['受付_年月日'],
-      '小計': v['相談件数']
+      'short_date': dayjs(v['受付_年月日'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY/MM/DD'),
+      '小計': Number(v['相談件数'])
     })), false)
     const date = Consult.date
 

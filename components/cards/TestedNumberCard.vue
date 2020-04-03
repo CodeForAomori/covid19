@@ -23,6 +23,7 @@
 
 <script>
 import Inspection from '@/data/inspection.json'
+import InspectionDataset from '@/data/_inspection.json'
 import PreInspection from '@/data/pre_inspection.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import dayjs from 'dayjs'
@@ -34,14 +35,14 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Inspection.datasets.map(v => v['陽性数']),
-      Inspection.datasets.map(v => v['陰性数'])
+      InspectionDataset.map(v => Number(v['陽性数'])),
+      InspectionDataset.map(v => Number(v['陰性数']))
     ]
     const inspectionsItems = [
       this.$t('陽性数'),
       this.$t('陰性数')
     ]
-    const inspectionsLabels = Inspection.datasets.map(v => dayjs(v['検査日時']).format('MM/DD'))
+    const inspectionsLabels = InspectionDataset.map(v => dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('MM/DD'))
     const inspectionsDataLabels = [
       this.$t('陽性数'),
       this.$t('陰性数')
