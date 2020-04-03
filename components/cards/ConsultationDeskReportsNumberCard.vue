@@ -5,16 +5,16 @@
       :title-id="'number-of-reports-to-covid19-consultation-desk'"
       :chart-id="'time-bar-chart-querents'"
       :chart-data="querentsGraph"
-      :date="Data.querents.date"
+      :date="date"
       :unit="$t('件.reports')"
-      :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000070'"
+      :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
     />
     <!-- 件.reports = 窓口相談件数 -->
   </v-col>
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import Consult from '@/data/consult.json'
 import formatGraph from '@/utils/formatGraph'
 import TimeBarChart from '@/components/TimeBarChart.vue'
 
@@ -24,10 +24,20 @@ export default {
   },
   data() {
     // 帰国者・接触者 電話相談センター 相談件数
-    const querentsGraph = formatGraph(Data.querents.data)
+    const querentsGraph = formatGraph(Consult.datasets.map(v => ({
+      '日付': v['受付_年月日'],
+      '曜日': '',
+      '9-17時': v['相談件数'],
+      '17-翌9時': v['相談件数'],
+      'date': v['受付_年月日'],
+      'w': 0,
+      'short_date': v['受付_年月日'],
+      '小計': v['相談件数']
+    })), false)
+    const date = Consult.date
 
     const data = {
-      Data,
+      date,
       querentsGraph
     }
     return data
