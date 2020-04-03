@@ -1,5 +1,5 @@
 <template>
-  <data-view :title="title" :title-id="titleId" :date="date">
+  <data-view :title="title" :title-id="titleId" :date="date" :url="url">
     <template v-slot:button>
       <ul :class="$style.GraphDesc">
         <li>
@@ -180,6 +180,10 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       default: () => []
     },
     unit: {
+      type: String,
+      default: ''
+    },
+    url: {
       type: String,
       default: ''
     }
