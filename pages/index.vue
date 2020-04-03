@@ -15,10 +15,10 @@
     <whats-new class="mb-4" :items="newsItems" />
     <v-row class="DataBlock">
       <!-- <confirmed-cases-details-card /> -->
-      <confirmed-cases-attributes-card />
       <confirmed-cases-number-card />
-      <patients-and-sickbeds-card />
+      <confirmed-cases-attributes-card />
       <tested-number-card />
+      <patients-and-sickbeds-card />
       <telephone-advisory-reports-number-card />
       <consultation-desk-reports-number-card />
     </v-row>
