@@ -8,6 +8,7 @@
         :unit="'床'"
         :info="'総病床数'"
         :descriptions="descriptions"
+        :url="'https://www.stopcovid19.jp/'"
       />
   </v-col>
 </template>

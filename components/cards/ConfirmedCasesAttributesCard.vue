@@ -7,6 +7,7 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
+      :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
     />
   </v-col>
 </template>
