@@ -9,7 +9,7 @@
       :info="sumInfoOfPatients"
       :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
       :url-text="'出典元：青い森オープンデータカタログ'"
-      :info="'現在「退院」のデータは県から提供されていないので反映していません。'"
+      :note="'現在「退院」のデータは県から提供されていないので反映していません。'"
     />
   </v-col>
 </template>
