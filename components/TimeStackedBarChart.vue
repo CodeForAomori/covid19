@@ -125,6 +125,7 @@ type Props = {
   titleId: string
   chartId: string
   chartData: number[][]
+  chartDataOffset: number[]
   date: string
   items: string[]
   labels: string[]
@@ -158,6 +159,11 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       default: 'time-stacked-bar-chart'
     },
     chartData: {
+      type: Array,
+      required: false,
+      default: () => []
+    },
+    chartDataOffset: {
       type: Array,
       required: false,
       default: () => []
@@ -208,7 +214,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
         }
       }
       return {
-        lText: this.sum(this.cumulativeSum(this.chartData)).toLocaleString(),
+        lText: this.sum([...this.cumulativeSum(this.chartData), ...this.chartDataOffset]).toLocaleString(),
         sText: `${this.$t('{date}の全体累計', {
           date: this.labels[this.labels.length - 1]
         })}`,
@@ -235,12 +241,15 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           })
         }
       }
+      console.log('a', this.chartData)
       return {
         labels: this.labels,
         datasets: this.chartData.map((item, index) => {
+          const offset = this.chartDataOffset[index] || 0
+
           return {
             label: this.items[index],
-            data: this.cumulative(item),
+            data: this.cumulative(item, offset),
             backgroundColor: colors[index],
             borderColor,
             borderWidth: borderWidth[index]
@@ -408,9 +417,9 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     }
   },
   methods: {
-    cumulative(array: number[]): number[] {
+    cumulative(array: number[], offset: number = 0): number[] {
       const cumulativeArray: number[] = []
-      let patSum = 0
+      let patSum = offset
       array.forEach(d => {
         patSum += d
         cumulativeArray.push(patSum)

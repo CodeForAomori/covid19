@@ -5,6 +5,7 @@
       :title-id="'number-of-tested'"
       :chart-id="'time-stacked-bar-chart-inspections'"
       :chart-data="inspectionsGraph"
+      :chart-data-offset="offset"
       :date="date"
       :items="inspectionsItems"
       :labels="inspectionsLabels"
@@ -19,6 +20,7 @@
 
 <script>
 import Inspection from '@/data/inspection.json'
+import PreInspection from '@/data/pre_inspection.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import dayjs from 'dayjs'
 
@@ -42,9 +44,11 @@ export default {
       this.$t('陰性数')
     ]
     const date = Inspection.date
+    const offset = [PreInspection.dataset['陽性'], PreInspection.dataset['陰性']]
 
     const data = {
       date,
+      offset,
       inspectionsGraph,
       inspectionsItems,
       inspectionsLabels,
