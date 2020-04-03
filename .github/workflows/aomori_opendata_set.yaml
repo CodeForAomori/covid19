@@ -49,11 +49,11 @@ jobs:
             
       - name: git commit
         run: |
-          git config --global user.email "ishi720@gmail.com"
+          git config --global user.email "ishizuka720@gmail.com"
           git config --global user.name "ishi720"
           git status
           git add --all
-          git commit -m "[Bot] GitHub Actions - auto run"
+          git commit -m "[Bot] GitHub Actions - auto run" || true
           git status
           
       - name: git push
