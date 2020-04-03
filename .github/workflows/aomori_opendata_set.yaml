@@ -38,7 +38,7 @@ jobs:
 
       - name: update json
         run: |
-          cp ../*.json data/
+          cp ../json/*.json data/
             
       - name: git commit
         run: |
