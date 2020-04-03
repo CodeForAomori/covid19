@@ -1,5 +1,5 @@
 <template>
-  <data-view :title="title" :title-id="titleId" :date="date">
+  <data-view :title="title" :title-id="titleId" :date="date" :url="url">
     <template v-slot:button>
       <ul :class="$style.GraphDesc">
         <li>
@@ -182,10 +182,14 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     unit: {
       type: String,
       default: ''
+    },
+    url: {
+      type: String,
+      default: ''
     }
   },
   data: () => ({
-    dataKind: 'transition',
+    dataKind: 'cumulative',
     canvas: true
   }),
   computed: {
