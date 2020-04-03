@@ -21,6 +21,7 @@
 import Data from '@/data/data.json'
 import Inspection from '@/data/inspection.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
+import dayjs from 'dayjs'
 
 export default {
   components: {
@@ -36,7 +37,7 @@ export default {
       this.$t('陽性数'),
       this.$t('陰性数')
     ]
-    const inspectionsLabels = Inspection.datasets.map(v => v['検査日時'])
+    const inspectionsLabels = Inspection.datasets.map(v => dayjs(v['検査日時']).format('MM/DD'))
     const inspectionsDataLabels = [
       this.$t('陽性数'),
       this.$t('陰性数')
