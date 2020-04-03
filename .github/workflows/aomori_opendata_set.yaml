@@ -35,8 +35,8 @@ jobs:
           ref: aomori_production
 
       - name: update json
-          run: |
-            cp ../*.json data/
+        run: |
+          cp ../*.json data/
             
       - name: git commit
           git config --global user.email "ishi720@gmail.com"
