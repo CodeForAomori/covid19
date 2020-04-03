@@ -11,6 +11,7 @@
       :unit="$t('件.tested')"
       :data-labels="inspectionsDataLabels"
       :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
+      :url-text="'出典元：青い森オープンデータカタログ'"
     >
     </time-stacked-bar-chart>
   </v-col>

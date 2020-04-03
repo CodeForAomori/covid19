@@ -1,5 +1,5 @@
 <template>
-  <data-view :title="title" :title-id="titleId" :date="date" :url="url">
+  <data-view :title="title" :title-id="titleId" :date="date" :url="url" :url-text="urlText">
     <template v-slot:button>
       <span />
     </template>
@@ -112,6 +112,10 @@ export default Vue.extend({
       default: () => {}
     },
     url: {
+      type: String,
+      default: ''
+    },
+    urlText: {
       type: String,
       default: ''
     }

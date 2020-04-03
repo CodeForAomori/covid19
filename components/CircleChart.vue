@@ -1,5 +1,5 @@
 <template>
-  <data-view :title="title" :title-id="titleId" :date="date" :url="url">
+  <data-view :title="title" :title-id="titleId" :date="date" :url="url" :url-text="urlText">
     <template v-slot:description>
       <div v-if="descriptions && descriptions.length > 0">
         <div v-for="text in descriptions">
@@ -66,6 +66,11 @@ export default {
       default: ''
     },
     url: {
+      type: String,
+      required: false,
+      default: ''
+    },
+    urlText: {
       type: String,
       required: false,
       default: ''

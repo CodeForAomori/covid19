@@ -8,6 +8,7 @@
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
       :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
+      :url-text="'出典元：青い森オープンデータカタログ'"
     />
   </v-col>
 </template>
