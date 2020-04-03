@@ -4,6 +4,7 @@
       :title="$t('検査件数')"
       :title-id="'number-of-inspection-persons'"
       :date="Data.inspection_status_simple.date"
+      :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
     >
       <div class="InspectionPersionsDetails">
         <span class="InspectionPersionsDetails-Value">

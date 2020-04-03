@@ -7,6 +7,7 @@
       :chart-data="patientsGraph"
       :date="Data.patients.date"
       :unit="$t('人')"
+      :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
     />
   </v-col>
 </template>
