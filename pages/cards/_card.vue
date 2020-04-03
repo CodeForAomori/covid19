@@ -54,6 +54,9 @@ import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
 import ShinjukuData from '@/data/13104_daily_visitors.json'
 import ChiyodaData from '@/data/13101_daily_visitors.json'
+import ConsultData from '@/data/consult.json'
+import ConsultCallCenterData from '@/data/consult_call_center.json'
+import InspectionData from '@/data/inspection.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
@@ -109,7 +112,7 @@ export default {
         break
       case 'number-of-tested':
         title = this.$t('検査実施件数')
-        updatedAt = Data.inspections_summary.date
+        updatedAt = InspectionData.date
         break
       case 'number-of-inspection-persons':
         title = this.$t('検査実施人数')
@@ -117,11 +120,11 @@ export default {
         break
       case 'number-of-reports-to-covid19-telephone-advisory-center':
         title = this.$t('新型コロナコールセンター相談件数')
-        updatedAt = Data.contacts.date
+        updatedAt = ConsultCallCenterData.date
         break
       case 'number-of-reports-to-covid19-consultation-desk':
         title = this.$t('新型コロナ受診相談窓口相談件数')
-        updatedAt = Data.querents.date
+        updatedAt = ConsultData.date
         break
       case 'predicted-number-of-toei-subway-passengers':
         title = this.$t('都営地下鉄の利用者数の推移')
