@@ -1,6 +1,6 @@
 name: Aomori Opendata Get
 
-on: pull
+on: push
 
 jobs:
   build-run-deploy:
