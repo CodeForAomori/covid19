@@ -5,24 +5,20 @@
       :title-id="'number-of-tested'"
       :chart-id="'time-stacked-bar-chart-inspections'"
       :chart-data="inspectionsGraph"
-      :date="Data.inspections_summary.date"
+      :date="date"
       :items="inspectionsItems"
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
       :data-labels="inspectionsDataLabels"
+      :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
     >
-      <!-- 件.tested = 検査数 -->
-      <template v-if="$i18n.locale !== 'ja-basic'" v-slot:additionalNotes>
-        {{ $t('※1: 疑い例・接触者調査') }}
-        <br />
-        {{ $t('※2: チャーター便・クルーズ船') }}
-      </template>
     </time-stacked-bar-chart>
   </v-col>
 </template>
 
 <script>
 import Data from '@/data/data.json'
+import Inspection from '@/data/inspection.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 
 export default {
@@ -32,18 +28,22 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['都内'],
-      Data.inspections_summary.data['その他']
+      Inspection.datasets.map(v => v['陽性数']),
+      Inspection.datasets.map(v => v['陰性数'])
     ]
     const inspectionsItems = [
-      this.$t('都内発生（※1）'),
-      this.$t('その他（※2）')
+      this.$t('陽性数'),
+      this.$t('陰性数')
     ]
-    const inspectionsLabels = Data.inspections_summary.labels
-    const inspectionsDataLabels = [this.$t('都内'), this.$t('その他.graph')]
+    const inspectionsLabels = Inspection.datasets.map(v => v['検査日時'])
+    const inspectionsDataLabels = [
+      this.$t('陽性数'),
+      this.$t('陰性数')
+    ]
+    const date = Inspection.date
 
     const data = {
-      Data,
+      date,
       inspectionsGraph,
       inspectionsItems,
       inspectionsLabels,
