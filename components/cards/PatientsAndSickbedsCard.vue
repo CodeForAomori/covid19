@@ -9,6 +9,7 @@
         :info="'総病床数'"
         :descriptions="descriptions"
         :url="'https://www.stopcovid19.jp/'"
+        :url-text="'出典元：COVID-19 Japan'"
       />
   </v-col>
 </template>

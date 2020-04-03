@@ -8,6 +8,7 @@
       :date="date"
       :unit="$t('件.reports')"
       :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
+      :url-text="'出典元：青い森オープンデータカタログ'"
     />
     <!-- 件.reports = 窓口相談件数 -->
   </v-col>
