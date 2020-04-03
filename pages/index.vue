@@ -19,6 +19,7 @@
       <confirmed-cases-number-card />
       <patients-and-sickbeds-card />
       <tested-number-card />
+      <telephone-advisory-reports-number-card />
     </v-row>
   </div>
 </template>
