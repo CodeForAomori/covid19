@@ -14,6 +14,9 @@
       :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
       :url-text="'出典元：青い森オープンデータカタログ'"
     >
+      <template v-slot:additionalNotes>
+        ※3/22以前の検査件数は青森県庁のHPに公表されていた累計値をプラスしています。
+      </template>
     </time-stacked-bar-chart>
   </v-col>
 </template>
