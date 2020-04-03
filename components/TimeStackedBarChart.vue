@@ -72,7 +72,7 @@ type Data = {
 }
 type Methods = {
   sum: (array: number[]) => number
-  cumulative: (array: number[], offset: number) => number[]
+  cumulative: (array: number[], offset?: number) => number[]
   pickLastNumber: (chartDataArray: number[][]) => number[]
   cumulativeSum: (chartDataArray: number[][]) => number[]
   eachArraySum: (chartDataArray: number[][]) => number[]
@@ -131,7 +131,8 @@ type Props = {
   labels: string[]
   dataLabels: string[] | TranslateResult[]
   unit: string,
-  urlText: string
+  url?: string,
+  urlText?: string
 }
 
 const options: ThisTypedComponentOptionsWithRecordProps<
