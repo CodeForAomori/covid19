@@ -23,12 +23,18 @@ jobs:
         run: npm install
 
       - name: csv get
-        run: node csv_get.js
+        run: |
+          node csv_get.js
+          ls -la csv
         
       - name: csv_to_json.js
         run: |
           node csv_get.js
-          mv ./json ../
+          ls -la json
+
+      - name: mv json
+          mv ./json/*.json ../
+          ls -la ../
         
       - name: covid19 checkout
         uses: actions/checkout@v2.0.0
@@ -38,7 +44,7 @@ jobs:
 
       - name: update json
         run: |
-          cp ../json/*.json data/
+          cp ../*.json data/
             
       - name: git commit
         run: |
