@@ -14,8 +14,8 @@
       :mobile-breakpoint="0"
       class="cardTable"
     />
-    <div class="note">
-      {{ $t('※退院には、死亡退院を含む') }}
+    <div class="note" v-if="note">
+      {{ $t(note) }}
     </div>
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
@@ -116,6 +116,10 @@ export default Vue.extend({
       default: ''
     },
     urlText: {
+      type: String,
+      default: ''
+    },
+    note: {
       type: String,
       default: ''
     }
