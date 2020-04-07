@@ -31,7 +31,6 @@ export default {
       '小計': Number(v['陽性数'])
     })), false)
     const date = Inspection.date
-    console.log()
 
     const data = {
       date,
