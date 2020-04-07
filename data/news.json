@@ -2,13 +2,18 @@
   "newsItems": [
     {
       "date": "2020/04/07",
-      "text": "新型コロナウイルス感染症の発生に伴い影響を受けた林業者及び木材産業者に対する金融支援について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/dantai/ringyo_korona.html"
+      "text": "新型コロナウイルス感染症について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
       "date": "2020/04/07",
-      "text": "新型コロナウイルス感染症について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+      "text": "新型コロナウイルス感染症に係る危機対策本部（新型インフルエンザ等対策本部） 知事メッセージ",
+      "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
+    },
+    {
+      "date": "2020/04/07",
+      "text": "新型コロナウイルス感染症の発生に伴い影響を受けた林業者及び木材産業者に対する金融支援について",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/dantai/ringyo_korona.html"
     },
     {
       "date": "2020/04/06",
@@ -29,11 +34,6 @@
       "date": "2020/04/02",
       "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/04/02",
-      "text": "新型コロナウイルス感染症に係る危機対策本部（新型インフルエンザ等対策本部） 知事メッセージ",
-      "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
     }
   ]
 }
