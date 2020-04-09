@@ -1,9 +1,9 @@
 {
     "sickbeds_summary": {
-       "data": {
+        "data": {
             "入院患者数": 11,
             "残り病床数": 18
         },
-        "last_update": "2020/04/05"
+        "last_update": "2020/04/07"
     }
 }
