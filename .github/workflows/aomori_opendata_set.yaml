@@ -33,6 +33,11 @@ jobs:
         run: |
           node csv_to_json.js
           ls -la json
+          
+      - name: sickbeds_summary_json_create.json
+        run: |
+          node sickbeds_summary_json_create.js
+          ls -la json
 
       - name: mv json
         run: |
