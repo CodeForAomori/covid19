@@ -40,7 +40,7 @@ export default {
 
     // 感染者数
     const patientsTable = formatTable(PatientsDataset.filter(v => v['公表_年月日']).map(v => ({
-      "リリース日": convert_day(v['公表_年月日']).format('YYYY-MM-DDTHH:mm:ss.000Z'),
+      "リリース日": convert_day(v['公表_年月日']).format('YYYY-MM-DD'),
       "居住地": v['居住地'],
       "年代": v['年代'],
       "性別": v['性別'],
