@@ -16,8 +16,8 @@
             :alt="$t('青森県')"
           />
           <div class="SideNavigation-HeaderText">
-            {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('menu/対策サイト')
+            {{ $t('menu/新型コロナウイルス情報サイト') }}<br />{{
+              $t('menu/青森県エリア')
             }}
           </div>
         </nuxt-link>
@@ -198,7 +198,7 @@ export default Vue.extend({
   padding-left: 52px;
   @include largerThan($small) {
     height: auto;
-    padding: 20px;
+    padding: 10px;
   }
   @include lessThan($small) {
     display: flex;
@@ -252,6 +252,7 @@ export default Vue.extend({
   display: flex;
   align-items: center;
   padding-right: 10px;
+  text-align: center;
   @include lessThan($small) {
     height: 64px;
   }

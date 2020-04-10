@@ -1,8 +1,8 @@
-# 青森県 新型コロナウイルス感染症対策サイト
+# ストップCOVID-19 新型コロナウイルス情報サイト (青森県エリア)
 
 [東京都 新型コロナウイルス感染症対策サイト](https://github.com/tokyo-metropolitan-gov/covid19)から派生した青森版のプロジェクトです。
 
-[![青森県 新型コロナウイルス感染症対策サイト](https://raw.githubusercontent.com/CodeForAomori/covid19/aomori_development/static/ogp.png)](https://covid19.codeforaomori.org)
+[![ストップCOVID-19 新型コロナウイルス情報サイト (青森県エリア)](https://raw.githubusercontent.com/CodeForAomori/covid19/aomori_development/static/ogp.png)](https://covid19.codeforaomori.org)
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
