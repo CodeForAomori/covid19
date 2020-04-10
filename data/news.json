@@ -1,9 +1,34 @@
 {
   "newsItems": [
     {
-      "date": "2020/04/09",
+      "date": "2020/04/10",
+      "text": "新型コロナウイルス感染症に係る「青森県からのお願い」ポスターデータについて",
+      "url": "https://www.pref.aomori.lg.jp/koho/coronavirus_poster.html"
+    },
+    {
+      "date": "2020/04/10",
+      "text": "【児童福祉関係】 新型コロナウイルス感染症対策関係通知等",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/kodomo/kodomo_corona_kankei.html"
+    },
+    {
+      "date": "2020/04/10",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/04/10",
+      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
+    },
+    {
+      "date": "2020/04/10",
+      "text": "新型コロナウイルス感染症に関する中小企業者に対する支援策について",
+      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/singatakorona.html"
+    },
+    {
+      "date": "2020/04/10",
+      "text": "新型コロナウイルス対策関連",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
     {
       "date": "2020/04/09",
@@ -14,11 +39,6 @@
       "date": "2020/04/09",
       "text": "新型コロナウイルス感染症緊急経済対策における税制上の措置（案）について",
       "url": "https://www.pref.aomori.lg.jp/life/tax/kinkyukeizaitaisaku_zeiseisoti.html"
-    },
-    {
-      "date": "2020/04/09",
-      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
     },
     {
       "date": "2020/04/08",
@@ -34,21 +54,6 @@
       "date": "2020/04/07",
       "text": "新型コロナウイルス感染症の発生に伴い影響を受けた林業者及び木材産業者に対する金融支援について",
       "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/dantai/ringyo_korona.html"
-    },
-    {
-      "date": "2020/04/06",
-      "text": "新型コロナウイルス対策関連",
-      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
-    },
-    {
-      "date": "2020/04/03",
-      "text": "青森空港ご利用のみなさまへ（新型コロナウィルス関係）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/airport/r2_oshirase_01.html"
-    },
-    {
-      "date": "2020/04/01",
-      "text": "新型コロナウイルス感染症対策関連経費情報",
-      "url": "https://www.pref.aomori.lg.jp/kensei/yosan/yosan_covid-19.html"
     }
   ]
 }
