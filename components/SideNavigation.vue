@@ -39,10 +39,10 @@
 
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-BaseLink">
+            <div class="SideNavigation-BaseLinkHeader">
+                {{ $t('リンク') }}
+            </div>
             <div class="SideNavigation-BaseLinkBlock">
-                <div class="SideNavigation-BaseLinkHeader">
-                    {{ $t('リンク') }}
-                </div>
                 <div>
                     <a
                         href="http://www.stopcovid19.jp"
@@ -51,6 +51,18 @@
                     >
                         <img src="/covid19_japan.jpg" alt="全国版情報サイトCOVID-19 Japan" />
                         <div>{{ $t('全国版情報サイトCOVID-19 Japan') }}</div>
+                    </a>
+                </div>
+            </div>
+            <div class="SideNavigation-BaseLinkBlock">
+                <div>
+                    <a
+                        href="https://aomori-takeout.fun"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img src="/aomori_takeout_big.png" alt="あおもりTAKEOUT" />
+                        <div>{{ $t('あおもりTAKEOUT応援団') }}</div>
                     </a>
                 </div>
             </div>
