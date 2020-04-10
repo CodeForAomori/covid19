@@ -34,7 +34,7 @@ export default {
 
     // 感染者数グラフ
     const patientsGraph = formatGraph(InspectionDataset.filter(v => v['検査日時']).map(v => ({
-      '日付': dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY-MM-DDTHH:mm:ss.000z'),
+      '日付': dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY-MM-DD'),
       '小計': Number(v['陽性数'])
     })), false)
 
