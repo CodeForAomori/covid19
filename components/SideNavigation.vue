@@ -251,7 +251,7 @@ export default Vue.extend({
 .SideNavigation-HeaderLink {
   display: flex;
   align-items: center;
-  padding-right: 10px;
+  padding-right: 8px;
   text-align: center;
   @include lessThan($small) {
     height: 64px;
@@ -292,7 +292,7 @@ export default Vue.extend({
 .SideNavigation-HeaderText {
   margin: 10px 0 0 0;
   @include lessThan($small) {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 5px;
   }
 
   @include lessThan($tiny) {
