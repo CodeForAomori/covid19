@@ -100,18 +100,13 @@ export default Vue.extend({
           hid: 'description',
           name: 'description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、青森県が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、Code for Aomoriが開設したものです。'
           )
         },
         {
           hid: 'og:site_name',
           property: 'og:site_name',
-          content:
-            this.$t('青森県') +
-            ' ' +
-            this.$t('新型コロナウイルス感染症') +
-            ' ' +
-            this.$t('対策サイト')
+          content: 'ストップCOVID-19あおもり 新型コロナウイルス情報サイト 青森県エリア'
         },
         {
           hid: 'og:url',
@@ -137,7 +132,7 @@ export default Vue.extend({
           hid: 'og:description',
           property: 'og:description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、青森県が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、Code for Aomoriが開設したものです。'
           )
         },
         {
