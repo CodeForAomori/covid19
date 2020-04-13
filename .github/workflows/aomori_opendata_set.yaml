@@ -60,7 +60,7 @@ jobs:
           git config --global user.name "ishi720"
           git status
           git add --all
-          git commit -m "[Bot] GitHub Actions - auto run" || true
+          git commit -m "[Bot] GitHub Actions - Data auto update" || true
           git status
           
       - name: git push
