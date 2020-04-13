@@ -47,7 +47,7 @@ jobs:
         run: |
           git config --local user.email "hodade@gmail.com"
           git config --local user.name "hodade bot"
-          git status | grep modified && git add data && git commit -v -m "[Bot] GitHub Actions - auto run" || true
+          git status | grep modified && git add data && git commit -v -m "[Bot] GitHub Actions - News auto update" || true
           git fetch
 
       - name: GitHub Push
