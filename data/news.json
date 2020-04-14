@@ -1,9 +1,34 @@
 {
   "newsItems": [
     {
-      "date": "2020/04/13",
+      "date": "2020/04/14",
+      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
+    },
+    {
+      "date": "2020/04/14",
+      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
+    },
+    {
+      "date": "2020/04/14",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/04/14",
+      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
+    },
+    {
+      "date": "2020/04/14",
+      "text": "新型コロナウイルス感染症に係る危機対策本部（新型インフルエンザ等対策本部） 知事メッセージ",
+      "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
+    },
+    {
+      "date": "2020/04/13",
+      "text": "新型コロナウイルス対策関連",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
     {
       "date": "2020/04/12",
@@ -22,43 +47,13 @@
     },
     {
       "date": "2020/04/10",
-      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/04/10",
       "text": "新型コロナウイルス感染症に関する中小企業者に対する支援策について",
       "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/singatakorona.html"
-    },
-    {
-      "date": "2020/04/10",
-      "text": "新型コロナウイルス対策関連",
-      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
-    },
-    {
-      "date": "2020/04/09",
-      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
     },
     {
       "date": "2020/04/09",
       "text": "新型コロナウイルス感染症緊急経済対策における税制上の措置（案）について",
       "url": "https://www.pref.aomori.lg.jp/life/tax/kinkyukeizaitaisaku_zeiseisoti.html"
-    },
-    {
-      "date": "2020/04/08",
-      "text": "新型コロナウイルス感染症に係る危機対策本部（新型インフルエンザ等対策本部） 知事メッセージ",
-      "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
-    },
-    {
-      "date": "2020/04/07",
-      "text": "新型コロナウィルス感染拡大防止の対応について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/shoko/a-nagoya/nagoya-kanko.html"
-    },
-    {
-      "date": "2020/04/07",
-      "text": "新型コロナウイルス感染症の発生に伴い影響を受けた林業者及び木材産業者に対する金融支援について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/dantai/ringyo_korona.html"
     }
   ]
 }
