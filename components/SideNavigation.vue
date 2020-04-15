@@ -67,6 +67,18 @@
                 </div>
             </div>
             <div class="SideNavigation-BaseLinkBlock">
+                <div>
+                    <a
+                        href="https://www.toonippo.co.jp/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img src="/toonippo_banner.gif" :alt="$t('東奥日報')" />
+                        <div>{{ $t('東奥日報') }}</div>
+                    </a>
+                </div>
+            </div>
+            <div class="SideNavigation-BaseLinkBlock">
                 <div class="SideNavigation-BaseLinkHeader">
                     {{ $t('サイト運営') }}
                 </div>
