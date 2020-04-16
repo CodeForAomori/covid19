@@ -1,6 +1,16 @@
 {
   "newsItems": [
     {
+      "date": "2020/04/16",
+      "text": "新型コロナウイルスに関しての医療機関の対応について",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
+    },
+    {
+      "date": "2020/04/16",
+      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器を用いた診療等の時限的・特例的な取扱いについて",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus2.html"
+    },
+    {
       "date": "2020/04/15",
       "text": "新型コロナウイルス対策関連",
       "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
@@ -54,11 +64,6 @@
       "date": "2020/04/10",
       "text": "新型コロナウイルス感染症に関する中小企業者に対する支援策について",
       "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/singatakorona.html"
-    },
-    {
-      "date": "2020/04/09",
-      "text": "新型コロナウイルス感染症緊急経済対策における税制上の措置（案）について",
-      "url": "https://www.pref.aomori.lg.jp/life/tax/kinkyukeizaitaisaku_zeiseisoti.html"
     }
   ]
 }
