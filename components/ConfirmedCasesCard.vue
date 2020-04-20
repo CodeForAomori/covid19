@@ -2,7 +2,8 @@
   <data-view :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
       <p :class="$style.note">
-        {{ $t('（注）チャーター機帰国者、クルーズ船乗客等は含まれていない') }}
+        <!-- {{ $t('（注）チャーター機帰国者、クルーズ船乗客等は含まれていない') }} -->
+        ※ 「軽症・中等症」、「重症」の件数は公表されていないため0として表示しています。
       </p>
     </template>
     <slot />
