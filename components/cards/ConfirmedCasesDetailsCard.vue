@@ -4,6 +4,8 @@
       :title="$t('検査陽性者の状況')"
       :title-id="'details-of-confirmed-cases'"
       :date="lastUpdate"
+      :url="'https://www.stopcovid19.jp/'"
+      :url-text="'出典元：COVID-19 Japan'"
     >
       <confirmed-cases-table
         :aria-label="$t('検査陽性者の状況')"
@@ -39,7 +41,7 @@ export default {
       }
       this.confirmedCases = data;
       //更新日
-      this.lastUpdate = json['lastUpdate']
+      this.lastUpdate = json['lastUpdate'].replace(/-/g,'/')
     }
   },
   data() {

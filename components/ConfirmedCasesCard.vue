@@ -1,5 +1,5 @@
 <template>
-  <data-view :title="title" :title-id="titleId" :date="date">
+  <data-view :title="title" :title-id="titleId" :date="date" :url="url" :url-text="urlText">
     <template v-slot:button>
       <p :class="$style.note">
         <!-- {{ $t('（注）チャーター機帰国者、クルーズ船乗客等は含まれていない') }} -->
@@ -35,6 +35,14 @@ export default Vue.extend({
       default: ''
     },
     date: {
+      type: String,
+      default: ''
+    },
+    url: {
+      type: String,
+      default: ''
+    },
+    urlText: {
       type: String,
       default: ''
     }
