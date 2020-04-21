@@ -22,7 +22,7 @@
       <patients-and-sickbeds-card />
       <telephone-advisory-reports-number-card />
       <consultation-desk-reports-number-card />
-      <confirmed-cases-details-card />
+      <!-- <confirmed-cases-details-card /> -->
     </v-row>
   </div>
 </template>

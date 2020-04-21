@@ -201,7 +201,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     }
   },
   data: () => ({
-    dataKind: 'cumulative',
+    dataKind: 'transition',
     canvas: true
   }),
   computed: {
