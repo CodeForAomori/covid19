@@ -57,24 +57,24 @@
             <div class="SideNavigation-BaseLinkBlock">
                 <div>
                     <a
-                        href="https://aomori-takeout.fun"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        <img src="/aomori_takeout_big.png" alt="あおもりTAKEOUT" />
-                        <div>{{ $t('あおもりTAKEOUT応援団') }}</div>
-                    </a>
-                </div>
-            </div>
-            <div class="SideNavigation-BaseLinkBlock">
-                <div>
-                    <a
                         href="https://www.toonippo.co.jp/"
                         target="_blank"
                         rel="noopener"
                     >
                         <img src="/toonippo_banner.gif" :alt="$t('東奥日報')" />
                         <div>{{ $t('東奥日報') }}</div>
+                    </a>
+                </div>
+            </div>
+            <div class="SideNavigation-BaseLinkBlock">
+                <div>
+                    <a
+                        href="https://aomori-takeout.fun"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        <img src="/aomori_takeout_big.png" alt="あおもりTAKEOUT" />
+                        <div>{{ $t('あおもりTAKEOUT応援団') }}</div>
                     </a>
                 </div>
             </div>
