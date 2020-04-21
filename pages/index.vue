@@ -17,12 +17,12 @@
     <whats-new class="mb-4" :items="newsItems" />
     <v-row class="DataBlock">
       <confirmed-cases-number-card />
-      <confirmed-cases-attributes-card />
+      <confirmed-cases-details-card />
       <tested-number-card />
       <patients-and-sickbeds-card />
       <telephone-advisory-reports-number-card />
       <consultation-desk-reports-number-card />
-      <confirmed-cases-details-card />
+      <confirmed-cases-attributes-card />
     </v-row>
   </div>
 </template>
