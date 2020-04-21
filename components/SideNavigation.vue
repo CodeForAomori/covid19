@@ -39,10 +39,10 @@
 
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-BaseLink">
-            <div class="SideNavigation-BaseLinkHeader">
-                {{ $t('リンク') }}
-            </div>
             <div class="SideNavigation-BaseLinkBlock">
+                <div class="SideNavigation-BaseLinkHeader">
+                    {{ $t('リンク') }}
+                </div>
                 <div>
                     <a
                         href="http://www.stopcovid19.jp"
@@ -57,12 +57,12 @@
             <div class="SideNavigation-BaseLinkBlock">
                 <div>
                     <a
-                        href="https://www.toonippo.co.jp/"
+                        href="https://www.toonippo.co.jp/feature/coronavirus/2020"
                         target="_blank"
                         rel="noopener"
                     >
-                        <img src="/toonippo_banner.gif" :alt="$t('東奥日報')" />
-                        <div>{{ $t('東奥日報') }}</div>
+                        <img src="/toonippo_banner.gif" :alt="$t('Web東奥 新型コロナウイルス情報')" />
+                        <div>{{ $t('Web東奥 新型コロナウイルス情報') }}</div>
                     </a>
                 </div>
             </div>
@@ -407,12 +407,14 @@ export default Vue.extend({
 
     text-align: center;
     margin-bottom: 48px;
+    font-size: 12px;
 
     .SideNavigation-BaseLinkBlock {
         margin-bottom: 24px;
 
         .SideNavigation-BaseLinkHeader {
             color: $color;
+            margin-bottom: 5px;
         }
         a {
             color: $color;
