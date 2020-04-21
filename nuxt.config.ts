@@ -95,6 +95,15 @@ const config: Configuration = {
     '@nuxtjs/axios',
     ['vue-scrollto/nuxt', { duration: 1000, offset: -72 }]
   ],
+  axios: {
+    proxy: true
+  },
+  proxy: {
+    '/api1/': {
+      target: 'https://www.stopcovid19.jp',
+      pathRewrite: {'^/api1/': ''},
+    }
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module

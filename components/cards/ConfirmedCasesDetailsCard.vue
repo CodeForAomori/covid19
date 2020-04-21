@@ -29,7 +29,7 @@ export default {
   methods: {
     async getData() {
       //検査陽性者の状況を外部APIから取得して上書きする
-      let json = await this.$axios.$get('https://www.stopcovid19.jp/data/covid19japan.json')
+      let json = await this.$axios.$get('/api1/data/covid19japan.json')
       const data = {
         検査実施人数: 0,
         陽性物数: json['area'][1]['npatients'],
