@@ -45,11 +45,9 @@
             </a>
           </div>
           <div>
-            <a class="Permalink" :href="permalink()">
-              <time :datetime="formattedDate">
-                {{ $t('{date} 更新', { date }) }}
-              </time>
-            </a>
+            <time :datetime="formattedDate">
+              {{ $t('{date} 更新', { date }) }}
+            </time>
           </div>
         </div>
 
