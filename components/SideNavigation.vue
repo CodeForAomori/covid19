@@ -94,17 +94,6 @@
             </div>
         </div>
         <div class="SideNavigation-Social">
-          <a
-            href="https://github.com/CodeForAomori/covid19"
-            target="_blank"
-            rel="noopener"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/github.webp" type="image/webp" />
-              <img src="/github.png" alt="GitHub" />
-            </picture>
-          </a>
         </div>
         <small class="SideNavigation-Copyright">
           2020 Code for Aomori
@@ -394,6 +383,7 @@ export default Vue.extend({
   font-size: 10px;
   line-height: 1.3;
   font-weight: bold;
+  text-align: center;
 }
 
 .SideNavigation-LicenseLink {
@@ -406,7 +396,7 @@ export default Vue.extend({
     $color: hsl(0, 0, 10);
 
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     font-size: 12px;
 
     .SideNavigation-BaseLinkBlock {
