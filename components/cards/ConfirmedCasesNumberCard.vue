@@ -9,13 +9,20 @@
       :unit="$t('人')"
       :url="'https://opendata.pref.aomori.lg.jp/dataset/1531.html'"
       :url-text="'出典元：青い森オープンデータカタログ'"
-    />
+    >
+      <template v-slot:description>
+        <ul>
+          <li>
+            {{ $t('※ 青い森オープンデータカタログよりも新しいデータは、東奥日報社による独自調査データを利用しています。') }}
+          </li>
+        </ul>
+      </template>
+    </time-bar-chart>
   </v-col>
 </template>
 
 <script>
-import Inspection from '@/data/inspection.json'
-import InspectionDataset from '@/data/_inspection.json'
+import InspectionDataset from '@/data/positive.json'
 import formatGraph from '@/utils/formatGraph'
 import TimeBarChart from '@/components/TimeBarChart.vue'
 import dayjs from 'dayjs'
@@ -26,12 +33,18 @@ export default {
   },
   data() {
     // 感染者数グラフ
-    const patientsGraph = formatGraph(InspectionDataset.filter(v => v['検査日時']).map(v => ({
-      '日付': dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY-MM-DD'),
-      '小計': Number(v['陽性数'])
-    })), false)
-    const date = Inspection.date
+    const patientsGraph = formatGraph(InspectionDataset['values']
+    .slice(1)
+    .filter(v => v[0])
+      .map(v => ({
+      '日付': dayjs(v[0].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY-MM-DD'),
+      '小計': Number(v[2])
+      })
+    ), false)
 
+    //更新日は最後のデータの日付とする
+    const date = InspectionDataset['values'][InspectionDataset['values'].length-1][0].replace(/[年月]/g, '/').replace(/日/g, '')
+;
     const data = {
       date,
       patientsGraph
