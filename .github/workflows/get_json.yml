@@ -4,9 +4,9 @@
 name: Get Json
 
 on:
-  push:
-    branches: [ aomori_development ]
-
+  schedule:
+    - cron: "*/10 * * * *"
+      
 jobs:
   build-run-deploy:
     runs-on: ubuntu-latest
