@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/04/28",
+      "text": "「青森県新型コロナウイルス感染拡大防止協力金」について",
+      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/kansenkakudaiboushi_kyoryokukin.html"
+    },
+    {
+      "date": "2020/04/28",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
@@ -34,11 +39,6 @@
       "date": "2020/04/27",
       "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/04/27",
-      "text": "「青森県新型コロナウイルス感染拡大防止協力金」について",
-      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/kansenkakudaiboushi_kyoryokukin.html"
     },
     {
       "date": "2020/04/27",
