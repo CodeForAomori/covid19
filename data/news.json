@@ -2,13 +2,18 @@
   "newsItems": [
     {
       "date": "2020/05/01",
+      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
+    },
+    {
+      "date": "2020/05/01",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
-      "date": "2020/05/01",
-      "text": "「青森県新型コロナウイルス感染症感染拡大防止協力金」について",
-      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/kansenkakudaiboushi_kyoryokukin.html"
+      "date": "2020/04/30",
+      "text": "新型コロナウイルス感染症に係る法人県民税・事業税の申告納付期限の延長について",
+      "url": "https://www.pref.aomori.lg.jp/life/tax/houjin_kigenenchou.html"
     },
     {
       "date": "2020/04/30",
@@ -37,11 +42,6 @@
     },
     {
       "date": "2020/04/28",
-      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
-    },
-    {
-      "date": "2020/04/28",
       "text": "新型コロナウイルスの感染拡大に関しての医療機関の対応について",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
     },
@@ -49,16 +49,6 @@
       "date": "2020/04/28",
       "text": "歯科診療における新型コロナウイルスの感染拡大に際しての対応について（歯科医療機関の皆様へ）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/dental_corona.html"
-    },
-    {
-      "date": "2020/04/27",
-      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/04/27",
-      "text": "新型コロナウイルス感染拡大を受けた産業廃棄物処理業の許可申請等について",
-      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/sanpai-sinsei-coronavirus.html"
     },
     {
       "date": "2020/04/27",
@@ -72,18 +62,18 @@
     },
     {
       "date": "2020/04/27",
+      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
+    },
+    {
+      "date": "2020/04/27",
+      "text": "新型コロナウイルス感染拡大を受けた産業廃棄物処理業の許可申請等について",
+      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/sanpai-sinsei-coronavirus.html"
+    },
+    {
+      "date": "2020/04/27",
       "text": "新型コロナウイルス感染症対策関連経費情報",
       "url": "https://www.pref.aomori.lg.jp/kensei/yosan/yosan_covid-19.html"
-    },
-    {
-      "date": "2020/04/23",
-      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器を用いた診療等の時限的・特例的な取扱いについて",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus2.html"
-    },
-    {
-      "date": "2020/04/23",
-      "text": "【児童福祉関係】 新型コロナウイルス感染症対策関係通知等",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/kodomo/kodomo_corona_kankei.html"
     }
   ]
 }
