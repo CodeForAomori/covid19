@@ -1,14 +1,24 @@
 {
   "newsItems": [
     {
-      "date": "2020/04/30",
-      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
+      "date": "2020/05/01",
+      "text": "新型コロナウイルス感染症について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/05/01",
+      "text": "「青森県新型コロナウイルス感染症感染拡大防止協力金」について",
+      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/kansenkakudaiboushi_kyoryokukin.html"
     },
     {
       "date": "2020/04/30",
-      "text": "新型コロナウイルス感染症について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+      "text": "青森空港ご利用のみなさまへ（新型コロナウィルス関係）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/airport/r2_oshirase_01.html"
+    },
+    {
+      "date": "2020/04/30",
+      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
     {
       "date": "2020/04/30",
@@ -19,11 +29,6 @@
       "date": "2020/04/30",
       "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
-    },
-    {
-      "date": "2020/04/30",
-      "text": "新型コロナウイルス感染症に関する中小企業者に対する支援策について",
-      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/singatakorona.html"
     },
     {
       "date": "2020/04/28",
@@ -42,28 +47,18 @@
     },
     {
       "date": "2020/04/28",
-      "text": "「青森県新型コロナウイルス感染拡大防止協力金」について",
-      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/kansenkakudaiboushi_kyoryokukin.html"
-    },
-    {
-      "date": "2020/04/28",
       "text": "歯科診療における新型コロナウイルスの感染拡大に際しての対応について（歯科医療機関の皆様へ）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/dental_corona.html"
-    },
-    {
-      "date": "2020/04/28",
-      "text": "歯科診療における新型コロナウイルスの感染拡大に際しての対応について（歯科医療機関の皆様へ）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/dental_corona.html"
-    },
-    {
-      "date": "2020/04/27",
-      "text": "新型コロナウイルス感染拡大を受けた産業廃棄物処理業の許可申請等について",
-      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/sanpai-sinsei-coronavirus.html"
     },
     {
       "date": "2020/04/27",
       "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
+    },
+    {
+      "date": "2020/04/27",
+      "text": "新型コロナウイルス感染拡大を受けた産業廃棄物処理業の許可申請等について",
+      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/sanpai-sinsei-coronavirus.html"
     },
     {
       "date": "2020/04/27",
