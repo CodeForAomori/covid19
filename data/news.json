@@ -1,19 +1,34 @@
 {
   "newsItems": [
     {
-      "date": "2020/05/07",
+      "date": "2020/05/08",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/05/08",
+      "text": "あすなろ療育福祉センター — 新型コロナウイルス感染症対策について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/korona_asunaro.html"
+    },
+    {
+      "date": "2020/05/07",
+      "text": "新型コロナウイルス感染症拡大防止のために",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_kansenboushi.html"
+    },
+    {
+      "date": "2020/05/07",
+      "text": "アピオあおもりにおける新型コロナウイルス感染拡大防止の対応の見直しについて(5月7日から)",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kankyo/seishonen/apioaomori-coronataiou.html"
+    },
+    {
+      "date": "2020/05/07",
+      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
     {
       "date": "2020/05/07",
       "text": "「新型コロナウイルス感染症拡大防止」ポスター",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kikaku/koho/stopcovid19poster.html"
-    },
-    {
-      "date": "2020/05/06",
-      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
     {
       "date": "2020/05/05",
@@ -34,41 +49,6 @@
       "date": "2020/05/01",
       "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
-    },
-    {
-      "date": "2020/04/30",
-      "text": "新型コロナウイルス感染症の影響により納税が困難な方に対する徴収猶予の特例制度",
-      "url": "https://www.pref.aomori.lg.jp/life/tax/kansensyou_tyousyuuyuuyo_001.html"
-    },
-    {
-      "date": "2020/04/30",
-      "text": "新型コロナウイルス感染症に係る法人県民税・事業税の申告納付期限の延長について",
-      "url": "https://www.pref.aomori.lg.jp/life/tax/houjin_kigenenchou.html"
-    },
-    {
-      "date": "2020/04/30",
-      "text": "青森空港ご利用のみなさまへ（新型コロナウィルス関係）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/airport/r2_oshirase_01.html"
-    },
-    {
-      "date": "2020/04/30",
-      "text": "廃棄物処理における新型コロナウイルス対策について",
-      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/haikibutu_coronataisaku.html"
-    },
-    {
-      "date": "2020/04/30",
-      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
-    },
-    {
-      "date": "2020/04/28",
-      "text": "新型コロナウイルス感染症に伴う畜産事業者への支援策について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/chikusan/koronataisaku.html"
-    },
-    {
-      "date": "2020/04/28",
-      "text": "新型コロナウイルスの感染拡大に関しての医療機関の対応について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
     }
   ]
 }
