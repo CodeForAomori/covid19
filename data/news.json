@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/05/09",
+      "text": "医療機関における新型コロナウイルス感染症への対応について（院内感染対策）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/new_corona_innaikansentaisaku.html"
+    },
+    {
+      "date": "2020/05/09",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
