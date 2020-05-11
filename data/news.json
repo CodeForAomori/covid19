@@ -1,14 +1,24 @@
 {
   "newsItems": [
     {
-      "date": "2020/05/09",
-      "text": "医療機関における新型コロナウイルス感染症への対応について（院内感染対策）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/new_corona_innaikansentaisaku.html"
+      "date": "2020/05/11",
+      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
+    },
+    {
+      "date": "2020/05/11",
+      "text": "廃棄物処理における新型コロナウイルス対策について",
+      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/haikibutu_coronataisaku.html"
+    },
+    {
+      "date": "2020/05/11",
+      "text": "新型コロナウイルス感染症について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
       "date": "2020/05/09",
-      "text": "新型コロナウイルス感染症について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+      "text": "医療機関における新型コロナウイルス感染症への対応について（院内感染対策）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/new_corona_innaikansentaisaku.html"
     },
     {
       "date": "2020/05/08",
@@ -37,23 +47,8 @@
     },
     {
       "date": "2020/05/05",
-      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/05/05",
       "text": "新型コロナウイルス感染症に係る危機対策本部（新型インフルエンザ等対策本部） 知事メッセージ",
       "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
-    },
-    {
-      "date": "2020/05/01",
-      "text": "新型コロナウイルス感染症の影響に伴う肥料取締法に基づく各種手続の弾力的運用等について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/sanzen/shinngatakoronahiryoutaiou.html"
-    },
-    {
-      "date": "2020/05/01",
-      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
     }
   ]
 }
