@@ -1,9 +1,24 @@
 {
   "newsItems": [
     {
-      "date": "2020/05/12",
+      "date": "2020/05/13",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/05/13",
+      "text": "新型コロナウイルスの感染拡大に伴う医療機関への周知、依頼事項",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
+    },
+    {
+      "date": "2020/05/13",
+      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器を用いた診療等の時限的・特例的な取扱いについて",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus2.html"
+    },
+    {
+      "date": "2020/05/12",
+      "text": "新型コロナウイルス感染症の感染拡大の影響等により解雇等された方への県営住宅の提供について",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kenju/mokutekigaishiyo.html"
     },
     {
       "date": "2020/05/11",
@@ -44,21 +59,6 @@
       "date": "2020/05/08",
       "text": "あすなろ療育福祉センター — 新型コロナウイルス感染症対策について",
       "url": "https://www.pref.aomori.lg.jp/welfare/welfare/korona_asunaro.html"
-    },
-    {
-      "date": "2020/05/07",
-      "text": "新型コロナウイルス感染症拡大防止のために",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_kansenboushi.html"
-    },
-    {
-      "date": "2020/05/07",
-      "text": "アピオあおもりにおける新型コロナウイルス感染拡大防止の対応の見直しについて(5月7日から)",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kankyo/seishonen/apioaomori-coronataiou.html"
-    },
-    {
-      "date": "2020/05/07",
-      "text": "「新型コロナウイルス感染症拡大防止」ポスター",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kikaku/koho/stopcovid19poster.html"
     }
   ]
 }
