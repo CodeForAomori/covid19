@@ -27,7 +27,7 @@ export default {
   data() {
     const patientsGraph = formatVariableGraph(Data.sickbeds_summary.data)
     const descriptions = [
-        '病床数は新型コロナウイルス感染者専用ではなく、他の感染症でも利用されるため、あくまで現時点での目安となります。',
+        '病床数は新型コロナウイルス感染者専用ではなく、他の感染症でも利用されるため、あくまで現時点での目安となります。病床数には宿泊施設を含んでいません。',
     ];
 
     const data = {
