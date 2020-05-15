@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/05/15",
+      "text": "新型コロナウイルスの感染拡大に伴う医療機関への周知、依頼事項",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
+    },
+    {
+      "date": "2020/05/15",
       "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
     },
@@ -34,11 +39,6 @@
       "date": "2020/05/13",
       "text": "新型コロナウイルス感染症の影響により納税が困難な方に対する徴収猶予の特例制度",
       "url": "https://www.pref.aomori.lg.jp/life/tax/kansensyou_tyousyuuyuuyo_001.html"
-    },
-    {
-      "date": "2020/05/13",
-      "text": "新型コロナウイルスの感染拡大に伴う医療機関への周知、依頼事項",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
     },
     {
       "date": "2020/05/13",
