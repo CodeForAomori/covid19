@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/05/18",
+      "text": "廃棄物処理における新型コロナウイルス対策について",
+      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/haikibutu_coronataisaku.html"
+    },
+    {
+      "date": "2020/05/18",
       "text": "新型コロナウイルス感染症への対応に係るNPO法人運営関連情報",
       "url": "https://www.pref.aomori.lg.jp/life/volunteer/npo_covid-19.html"
     },
