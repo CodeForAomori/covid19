@@ -1,6 +1,16 @@
 {
   "newsItems": [
     {
+      "date": "2020/05/19",
+      "text": "新型コロナウイルス感染症について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/05/18",
+      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
+    },
+    {
       "date": "2020/05/18",
       "text": "廃棄物処理における新型コロナウイルス対策について",
       "url": "https://www.pref.aomori.lg.jp/nature/kankyo/haikibutu_coronataisaku.html"
@@ -12,13 +22,13 @@
     },
     {
       "date": "2020/05/18",
-      "text": "新型コロナウイルス感染症について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
-    },
-    {
-      "date": "2020/05/18",
       "text": "新型コロナウイルス感染症に関する中小企業者に対する支援策について",
       "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/singatakorona.html"
+    },
+    {
+      "date": "2020/05/15",
+      "text": "新型コロナウイルス感染症対策関連経費情報",
+      "url": "https://www.pref.aomori.lg.jp/kensei/yosan/yosan_covid-19.html"
     },
     {
       "date": "2020/05/15",
@@ -46,11 +56,6 @@
       "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
     },
     {
-      "date": "2020/05/14",
-      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
-    },
-    {
       "date": "2020/05/13",
       "text": "新型コロナウイルス感染症の影響により納税が困難な方に対する徴収猶予の特例制度",
       "url": "https://www.pref.aomori.lg.jp/life/tax/kansensyou_tyousyuuyuuyo_001.html"
@@ -59,11 +64,6 @@
       "date": "2020/05/13",
       "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器を用いた診療等の時限的・特例的な取扱いについて",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus2.html"
-    },
-    {
-      "date": "2020/05/12",
-      "text": "新型コロナウイルス感染症の感染拡大の影響等により解雇等された方への県営住宅の提供について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kenju/mokutekigaishiyo.html"
     }
   ]
 }
