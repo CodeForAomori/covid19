@@ -1,19 +1,19 @@
 {
   "newsItems": [
     {
-      "date": "2020/05/20",
-      "text": "廃棄物処理における新型コロナウイルス対策について",
-      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/haikibutu_coronataisaku.html"
+      "date": "2020/05/21",
+      "text": "歯科診療における新型コロナウイルスの感染拡大に際しての対応について（歯科医療機関の皆様へ）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/dental_corona.html"
     },
     {
-      "date": "2020/05/20",
+      "date": "2020/05/21",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
-      "date": "2020/05/18",
-      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
+      "date": "2020/05/20",
+      "text": "廃棄物処理における新型コロナウイルス対策について",
+      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/haikibutu_coronataisaku.html"
     },
     {
       "date": "2020/05/18",
@@ -34,16 +34,6 @@
       "date": "2020/05/15",
       "text": "新型コロナウイルスの感染拡大に伴う医療機関への周知、依頼事項",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
-    },
-    {
-      "date": "2020/05/15",
-      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
-    },
-    {
-      "date": "2020/05/15",
-      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     }
   ]
 }
