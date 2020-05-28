@@ -1,24 +1,39 @@
 {
   "newsItems": [
     {
+      "date": "2020/05/28",
+      "text": "新型コロナウイルス感染症への対応に係るNPO法人運営関連情報",
+      "url": "https://www.pref.aomori.lg.jp/life/volunteer/npo_covid-19.html"
+    },
+    {
+      "date": "2020/05/28",
+      "text": "新型コロナウイルス感染症について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/05/28",
+      "text": "新型コロナウイルス感染症の影響により納税が困難な方に対する徴収猶予の特例制度",
+      "url": "https://www.pref.aomori.lg.jp/life/tax/kansensyou_tyousyuuyuuyo_001.html"
+    },
+    {
+      "date": "2020/05/28",
+      "text": "東地方保健所 「新型コロナウイルス感染症（COVID-19）」に関する情報",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenmin/ao-hoken/higashihoken_covid19.html"
+    },
+    {
+      "date": "2020/05/27",
+      "text": "新型コロナウイルス感染症に関する融資制度のご案内（生活衛生関係営業者向け日本政策金融公庫融資）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/coronafinancing_eisei.html"
+    },
+    {
+      "date": "2020/05/27",
+      "text": "新型コロナウイルス感染症に関する各種支援",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
+    },
+    {
       "date": "2020/05/27",
       "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/05/27",
-      "text": "新型コロナウイルス感染症緊急経済対策における税制上の措置について",
-      "url": "https://www.pref.aomori.lg.jp/life/tax/kinnkyuukeizaitaisaku_zeisei_01.html"
-    },
-    {
-      "date": "2020/05/27",
-      "text": "新型コロナウイルス感染症に関する基本的対処方針について",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_taisyohoushin.html"
-    },
-    {
-      "date": "2020/05/27",
-      "text": "新型コロナウイルス感染症に関する各種支援について",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
     }
   ]
 }
