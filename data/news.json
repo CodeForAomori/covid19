@@ -1,9 +1,19 @@
 {
   "newsItems": [
     {
-      "date": "2020/06/11",
+      "date": "2020/06/12",
+      "text": "新型コロナウイルス感染症に関する中小企業者に対する支援策について",
+      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/singatakorona.html"
+    },
+    {
+      "date": "2020/06/12",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/06/12",
+      "text": "議会を傍聴される皆様へ（新型コロナウイルス感染予防について）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/gikai/bocho_coronavirus.html"
     },
     {
       "date": "2020/06/10",
@@ -19,16 +29,6 @@
       "date": "2020/06/10",
       "text": "新型コロナウイルス感染症に係る危機対策本部 知事メッセージ",
       "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
-    },
-    {
-      "date": "2020/06/08",
-      "text": "廃棄物処理における新型コロナウイルス対策について",
-      "url": "https://www.pref.aomori.lg.jp/nature/kankyo/haikibutu_coronataisaku.html"
-    },
-    {
-      "date": "2020/06/05",
-      "text": "議会を傍聴される皆様へ（新型コロナウイルス感染予防について）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/gikai/bocho_coronavirus.html"
     }
   ]
 }
