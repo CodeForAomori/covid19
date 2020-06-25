@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2020/06/25",
+      "text": "【介護保険】介護施設等における新型コロナウイルス感染拡大防止対策支援事業費補助金について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigo-sisetu-kansenbousihojo.html"
+    },
+    {
+      "date": "2020/06/25",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
@@ -24,11 +29,6 @@
       "date": "2020/06/23",
       "text": "新型コロナウイルス感染症について（農林水産業関連）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/korona_nourin.html"
-    },
-    {
-      "date": "2020/06/22",
-      "text": "【介護保険】介護施設等における新型コロナウイルス感染拡大防止対策支援事業費補助金について",
-      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigo-sisetu-kansenbousihojo.html"
     },
     {
       "date": "2020/06/19",
