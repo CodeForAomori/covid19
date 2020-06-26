@@ -33,10 +33,14 @@ export default {
     const convert_day = v => dayjs(v.replace(/[年月]/g, '/').replace(/日/g, ''))
 
     // 感染者数グラフ
-    const patientsGraph = formatGraph(InspectionDataset.filter(v => v['検査日時']).map(v => ({
-      '日付': dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY-MM-DD'),
-      '小計': Number(v['陽性数'])
-    })), false)
+    const patientsGraph = formatGraph(
+        InspectionDataset
+            .filter(v => v['検査日時'] && v['検査日時'].match(/^\d+年\d+月\d+日$/))
+            .map(v => ({
+              '日付': dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY-MM-DD'),
+              '小計': Number(v['陽性数'])
+            }))
+    , false)
 
     // 感染者数
     const patientsTable = formatTable(PatientsDataset.filter(v => v['公表_年月日']).map(v => ({
