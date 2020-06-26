@@ -42,7 +42,10 @@ export default {
       this.$t('陽性数'),
       this.$t('陰性数')
     ]
-    const inspectionsLabels = InspectionDataset.map(v => dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('MM/DD'))
+    const inspectionsLabels = InspectionDataset
+        .map(v => v['検査日時'])
+        .filter(v => v.match(/^\d+年\d+月\d+日$/))
+        .map(v => dayjs(v.replace(/[年月]/g, '/').replace(/日/g, '')).format('MM/DD'))
     const inspectionsDataLabels = [
       this.$t('陽性数'),
       this.$t('陰性数')
