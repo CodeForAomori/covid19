@@ -2,13 +2,13 @@
   "newsItems": [
     {
       "date": "2020/07/09",
-      "text": "青森県新型コロナウイルス感染症経済対策会議の開催について",
-      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/covid-19_keizaitaisakukaigi.html"
-    },
-    {
-      "date": "2020/07/08",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/07/09",
+      "text": "青森県新型コロナウイルス感染症経済対策会議の開催について",
+      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/covid-19_keizaitaisakukaigi.html"
     },
     {
       "date": "2020/07/08",
@@ -24,6 +24,11 @@
       "date": "2020/07/07",
       "text": "「令和2年度青森県新型コロナウイルス感染症対策医工連携推進事業費補助金」公募のお知らせ",
       "url": "https://www.pref.aomori.lg.jp/soshiki/shoko/sozoka/covid19_ikourenkei_hojyokin_koubo.html"
+    },
+    {
+      "date": "2020/07/06",
+      "text": "新型コロナウイルス感染症に係る危機対策本部 知事メッセージ",
+      "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
     }
   ]
 }
