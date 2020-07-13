@@ -1,9 +1,14 @@
 {
   "newsItems": [
     {
-      "date": "2020/07/11",
+      "date": "2020/07/13",
       "text": "新型コロナウイルス感染症について",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/07/13",
+      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
     },
     {
       "date": "2020/07/10",
@@ -14,21 +19,6 @@
       "date": "2020/07/10",
       "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/07/10",
-      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
-    },
-    {
-      "date": "2020/07/09",
-      "text": "青森県新型コロナウイルス感染症経済対策会議の開催について",
-      "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/covid-19_keizaitaisakukaigi.html"
-    },
-    {
-      "date": "2020/07/08",
-      "text": "青森空港ご利用のみなさまへ（新型コロナウィルス関係）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/airport/r2_oshirase_01.html"
     }
   ]
 }
