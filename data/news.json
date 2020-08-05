@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020/08/05",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
       "date": "2020/08/04",
       "text": "新型コロナウイルス感染症に係る危機対策本部 知事メッセージ（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
@@ -11,9 +16,9 @@
       "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/covid-19_keizaitaisakukaigi.html"
     },
     {
-      "date": "2020/08/04",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+      "date": "2020/08/03",
+      "text": "「あおもり観光新型コロナ対策推進宣言施設」登録制度について（観光企画課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kkokusai/kanko/aomori_kanko_sengen.html"
     },
     {
       "date": "2020/08/03",
