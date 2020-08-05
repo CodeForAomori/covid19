@@ -2,8 +2,18 @@
   "newsItems": [
     {
       "date": "2020/08/05",
+      "text": "【介護保険】新型コロナウイルス感染症に係る介護サービス事業所等に対する緊急包括支援事業費補助金（介護サービス事業所等に勤務する職員に対する慰労金の支給事業等）について（高齢福祉保険課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigo-kinkyuhokatusien-hojo.html"
+    },
+    {
+      "date": "2020/08/05",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/08/04",
+      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）（高齢福祉保険課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
     {
       "date": "2020/08/04",
@@ -29,11 +39,6 @@
       "date": "2020/07/31",
       "text": "新型コロナウイルス感染症に関する各種支援（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
-    },
-    {
-      "date": "2020/07/31",
-      "text": "【介護保険】新型コロナウイルス感染症に係る介護サービス事業所等に対する緊急包括支援事業費補助金（介護サービス事業所等に勤務する職員に対する慰労金の支給事業等）について（高齢福祉保険課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigo-kinkyuhokatusien-hojo.html"
     }
   ]
 }
