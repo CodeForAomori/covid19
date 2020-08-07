@@ -27,7 +27,9 @@ export default {
   },
   data() {
     // 帰国者・接触者 電話相談センター 相談件数
-    const querentsGraph = formatGraph(ConsultDataset.map(v => ({
+    const querentsGraph = formatGraph(ConsultDataset
+      .reverse()
+      .map(v => ({
       '日付': dayjs(v['受付_年月日'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY/MM/DD'),
       '曜日': '',
       '9-17時': Number(v['相談件数']),
