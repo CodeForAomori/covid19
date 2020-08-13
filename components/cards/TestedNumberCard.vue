@@ -33,6 +33,8 @@ export default {
     TimeStackedBarChart
   },
   data() {
+    // 元データが逆順になったので反転する
+    InspectionDataset.reverse()
     // 検査実施日別状況
     const inspectionsGraph = [
       InspectionDataset.map(v => Number(v['陽性数'])),
@@ -43,7 +45,6 @@ export default {
       this.$t('陰性数')
     ]
     const inspectionsLabels = InspectionDataset
-        .reverse()
         .map(v => v['検査日時'])
         .filter(v => v.match(/^\d+年\d+月\d+日$/))
         .map(v => dayjs(v.replace(/[年月]/g, '/').replace(/日/g, '')).format('MM/DD'))
