@@ -1,14 +1,19 @@
 {
   "newsItems": [
     {
-      "date": "2020/08/19",
-      "text": "青森県新型コロナウイルス感染症対応医療従事者等慰労金について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020aomoricovidirou.html"
+      "date": "2020/08/20",
+      "text": "新型コロナウイルス感染症に関する各種支援（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
+    },
+    {
+      "date": "2020/08/20",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
       "date": "2020/08/19",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+      "text": "青森県新型コロナウイルス感染症対応医療従事者等慰労金について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020aomoricovidirou.html"
     },
     {
       "date": "2020/08/18",
@@ -21,27 +26,19 @@
       "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/korona_nourin.html"
     },
     {
-      "date": "#REF!",
-      "text": "新型コロナウイルス感染症に係る危機対策本部 知事メッセージ（青森県危機対策本部）"
+      "date": "2020/08/14",
+      "text": "新型コロナウイルス感染症に係る危機対策本部 知事メッセージ（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/R020228message.html"
     },
     {
-      "date": "#REF!",
-      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）（高齢福祉保険課）"
+      "date": "2020/08/14",
+      "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）（高齢福祉保険課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
     {
       "date": "2020/08/10",
       "text": "青森空港ご利用のみなさまへ（新型コロナウィルス関係）（青森空港管理事務所）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/airport/r2_oshirase_01.html"
-    },
-    {
-      "date": "2020/08/07",
-      "text": "令和２年度「ウイズコロナ 飲食店経営戦略・デジタル活用 コンサルティング事業」に係る企画提案を募集します（地域産業課）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/shoko/chiikisangyo/bosyu_restaurant_management_digital.html"
-    },
-    {
-      "date": "2020/08/07",
-      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について（医療薬務課）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
     }
   ]
 }
