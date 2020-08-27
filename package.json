@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NODE_ENV=development nuxt-ts",
-    "build": "nuxt-ts build",
+    "build": "nuxt-ts build --no-lock",
     "start": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NODE_ENV=production nuxt-ts start",
     "generate:deploy": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NODE_ENV=production nuxt-ts generate",
     "generate:dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NODE_ENV=development nuxt-ts generate",
