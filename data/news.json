@@ -2,8 +2,18 @@
   "newsItems": [
     {
       "date": "2020/09/17",
+      "text": "県・市町村による新型コロナウイルス感染症対策連絡会議の開催について（市町村課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/soumu/shichoson/R20629koronarenrakukaigi.html"
+    },
+    {
+      "date": "2020/09/17",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/09/17",
+      "text": "新型コロナウイルス感染症に関する各種支援（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
     },
     {
       "date": "2020/09/16",
@@ -34,11 +44,6 @@
       "date": "2020/09/14",
       "text": "新型コロナウイルス感染症について（農林水産業関連）（農林水産政策課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/korona_nourin.html"
-    },
-    {
-      "date": "2020/09/11",
-      "text": "【終了しました】令和2年度地域スタディ円卓会議「ウィズ・コロナ時代の地域を創る」（地域活力振興課）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kikaku/chikatsu/chiiki-study.html"
     }
   ]
 }
