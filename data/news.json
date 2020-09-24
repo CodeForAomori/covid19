@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020/09/24",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
       "date": "2020/09/23",
       "text": "「令和２年度青森県新型コロナウイルス感染症対策医工連携推進事業費補助金」採択事業決定のお知らせ（新産業創造課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/shoko/sozoka/covid19_ikourenkei_hojyokin_saitaku2.html"
@@ -9,11 +14,6 @@
       "date": "2020/09/23",
       "text": "新型コロナウイルス感染症の影響による臨床研修病院への実地調査等の取扱いについて（医療薬務課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/rinsyoukensyuubyouinhenojicchichousanotoriatsukai.html"
-    },
-    {
-      "date": "2020/09/23",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
       "date": "2020/09/18",
@@ -29,16 +29,6 @@
       "date": "2020/09/17",
       "text": "新型コロナウイルス感染症に関する各種支援（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
-    },
-    {
-      "date": "2020/09/16",
-      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について（青森県危機対策本部）",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/09/16",
-      "text": "新型コロナウイルスの感染拡大に伴う医療機関への周知、依頼事項（医療薬務課）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/info-coronavirus.html"
     }
   ]
 }
