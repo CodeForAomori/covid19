@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020/09/29",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
       "date": "2020/09/25",
       "text": "新型コロナウイルス感染症について（農林水産業関連）（農林水産政策課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/korona_nourin.html"
