@@ -1,7 +1,7 @@
 {
   "newsItems": [
     {
-      "date": "2020/10/02",
+      "date": "2020/10/05",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
@@ -9,6 +9,11 @@
       "date": "2020/10/01",
       "text": "「With/Afterコロナの働き方をAIで効率化実践講座」を開催します！（新産業創造課）",
       "url": "https://www.pref.aomori.lg.jp/sangyo/ict/2020aitraining.html"
+    },
+    {
+      "date": "2020/09/30",
+      "text": "「あおもり観光新型コロナ対策推進宣言施設」登録制度について（観光企画課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kkokusai/kanko/aomori_kanko_sengen.html"
     }
   ]
 }
