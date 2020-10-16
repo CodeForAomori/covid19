@@ -65,4 +65,3 @@ $ docker-compose run --rm app yarn install
 
 `process.env.GENERATE_ENV` の値が、本番の場合は`'production'`に、それ以外の場合は `'development'` になっています。  
 テスト環境のみで実行したい処理がある場合はこちらの値をご利用ください。
-
