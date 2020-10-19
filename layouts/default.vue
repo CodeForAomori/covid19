@@ -53,21 +53,22 @@ export default Vue.extend({
     NoScript
   },
   data(): LocalData {
-    let hasNavigation = true
-    let loading = true
-    if (this.$route.query.embed === 'true') {
-      hasNavigation = false
-      loading = false
-    } else if (this.$route.query.ogp === 'true') {
-      hasNavigation = false
-      loading = false
-    }
-
     return {
-      hasNavigation,
-      loading,
+      hasNavigation: true,
+      loading: true,
       isOpenNavigation: false
     }
+  },
+  created() {
+    this.$nextTick(() => {
+        if (this.$route.query.embed === 'true') {
+          this.hasNavigation = false
+          this.loading = false
+        } else if (this.$route.query.ogp === 'true') {
+          this.hasNavigation = false
+          this.loading = false
+        }
+    })
   },
   mounted() {
     this.loading = false
