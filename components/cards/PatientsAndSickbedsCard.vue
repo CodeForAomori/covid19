@@ -8,8 +8,8 @@
         :unit="'床'"
         :info="'総病床数'"
         :descriptions="descriptions"
-        :url="'https://www.stopcovid19.jp/'"
-        :url-text="'出典元：COVID-19 Japan'"
+        :url="'https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html'"
+        :url-text="'出典元：厚生労働省'"
       />
   </v-col>
 </template>
@@ -28,7 +28,7 @@ export default {
     const patientsGraph = formatVariableGraph(Data.sickbeds_summary.data)
     const descriptions = [
         '病床数は新型コロナウイルス感染者専用ではなく、他の感染症でも利用されるため、あくまで現時点での目安となります。',
-        '病床数には、療養用で確保されているホテル（推定30室）は含まれていません。'
+        '病床数には療養用で確保されている宿泊施設は含まれていません。'
     ];
 
     const data = {
