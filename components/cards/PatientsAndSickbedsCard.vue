@@ -25,10 +25,18 @@ export default {
     CircleChart
   },
   data() {
-    const patientsGraph = formatVariableGraph(Data.sickbeds_summary.data)
+    const sickbeds_data = Data.sickbeds_summary.data
+    const a = sickbeds_data['入院患者受入確保病床'] || 0
+    const b = sickbeds_data['宿泊施設受入可能室数'] || 0
+
+    // 不要データを削除
+    delete sickbeds_data['入院患者受入確保病床']
+    delete sickbeds_data['宿泊施設受入可能室数']
+
+    const patientsGraph = formatVariableGraph(sickbeds_data)
     const descriptions = [
         '病床数は新型コロナウイルス感染者専用ではなく、他の感染症でも利用されるため、あくまで現時点での目安となります。',
-        '病床数には療養用で確保されている宿泊施設は含まれていません。'
+        `病床数は感染者用病床${a}床、宿泊療養のための宿泊施設${b}床の合計値となっています。`
     ];
 
     const data = {
