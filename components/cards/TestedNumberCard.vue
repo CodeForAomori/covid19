@@ -34,17 +34,30 @@ export default {
   },
   data() {
     // 元データが逆順になったので反転する
-    InspectionDataset.reverse()
+    const dataset = InspectionDataset.slice()
+    dataset.sort((a, b) => {
+      const da = dayjs(a['検査日時'].replace(/[年月]/g, '/').replace(/日/g, ''))
+      const db = dayjs(b['検査日時'].replace(/[年月]/g, '/').replace(/日/g, ''))
+
+      if (da < db) {
+        return -1
+      } else if (da > db) {
+        return 1
+      } else {
+        return 0
+      }
+    })
+
     // 検査実施日別状況
     const inspectionsGraph = [
-      InspectionDataset.map(v => Number(v['陽性数'])),
-      InspectionDataset.map(v => Number(v['陰性数']))
+      dataset.map(v => Number(v['陽性数'])),
+      dataset.map(v => Number(v['陰性数']))
     ]
     const inspectionsItems = [
       this.$t('陽性数'),
       this.$t('陰性数')
     ]
-    const inspectionsLabels = InspectionDataset
+    const inspectionsLabels = dataset
         .map(v => v['検査日時'])
         .filter(v => v.match(/^\d+年\d+月\d+日$/))
         .map(v => dayjs(v.replace(/[年月]/g, '/').replace(/日/g, '')).format('MM/DD'))
