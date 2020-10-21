@@ -32,9 +32,24 @@ export default {
     // 日本語の年月日を日時データに変換する
     const convert_day = v => dayjs(v.replace(/[年月]/g, '/').replace(/日/g, ''))
 
+    // 日付順に並び替え直す
+    const dataset = InspectionDataset.slice()
+    dataset.sort((a, b) => {
+      const da = dayjs(a['検査日時'].replace(/[年月]/g, '/').replace(/日/g, ''))
+      const db = dayjs(b['検査日時'].replace(/[年月]/g, '/').replace(/日/g, ''))
+
+      if (da < db) {
+        return -1
+      } else if (da > db) {
+        return 1
+      } else {
+        return 0
+      }
+    })
+
     // 感染者数グラフ
     const patientsGraph = formatGraph(
-        InspectionDataset
+        dataset
             .filter(v => v['検査日時'] && v['検査日時'].match(/^\d+年\d+月\d+日$/))
             .map(v => ({
               '日付': dayjs(v['検査日時'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY-MM-DD'),
