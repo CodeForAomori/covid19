@@ -58,14 +58,30 @@ export default {
     , false)
 
     // 感染者数
-    const patientsTable = formatTable(PatientsDataset.filter(v => v['公表_年月日']).map(v => ({
-      "リリース日": convert_day(v['公表_年月日']).format('YYYY-MM-DD'),
-      "居住地": v['居住地'],
-      "年代": v['年代'],
-      "性別": v['性別'],
-      "退院": null,
-      "date": convert_day(v['判明_年月日']).format('YYYY-MM-DD')
-    })))
+    const patientsTable = formatTable(
+        PatientsDataset
+            .filter(v => v['公表_年月日'])
+            .sort((a, b) => {
+              // 降順にする
+              const da = convert_day(a['公表_年月日'])
+              const db = convert_day(b['公表_年月日'])
+              if (da < db) {
+                return -1
+              } else if (da > db) {
+                return 1
+              } else {
+                return 0
+              }
+            })
+            .map(v => ({
+              "リリース日": convert_day(v['公表_年月日']).format('YYYY-MM-DD'),
+              "居住地": v['居住地'],
+              "年代": v['年代'],
+              "性別": v['性別'],
+              "退院": null,
+              "date": convert_day(v['判明_年月日']).format('YYYY-MM-DD')
+            }))
+    )
 
     const sumInfoOfPatients = {
       lText: PatientsDataset.length,
