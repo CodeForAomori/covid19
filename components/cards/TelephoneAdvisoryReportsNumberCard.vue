@@ -28,6 +28,7 @@ export default {
   data() {
     // 相談件数
     const contactsGraph = formatGraph(ConsultCallCenterDataset
+      .slice()
       .reverse()
       .filter(v => v['受付_年月日']).map(v => ({
       '日付': dayjs(v['受付_年月日'].replace(/[年月]/g, '/').replace(/日/g, '')).format('YYYY/MM/DD'),
