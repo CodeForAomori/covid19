@@ -1,14 +1,24 @@
 {
   "newsItems": [
     {
-      "date": "2020/10/21",
-      "text": "新型コロナウイルス感染症に関する各種支援（青森県危機対策本部）",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
+      "date": "2020/10/22",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/10/22",
+      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
+    },
+    {
+      "date": "2020/10/22",
+      "text": "新型コロナウイルス感染症対策関連経費情報（財政課）",
+      "url": "https://www.pref.aomori.lg.jp/kensei/yosan/yosan_covid-19.html"
     },
     {
       "date": "2020/10/21",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+      "text": "新型コロナウイルス感染症に関する各種支援（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
     },
     {
       "date": "2020/10/21",
@@ -19,11 +29,6 @@
       "date": "2020/10/21",
       "text": "新型コロナウイルス感染症について（農林水産業関連）（農林水産政策課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/korona_nourin.html"
-    },
-    {
-      "date": "2020/10/20",
-      "text": "新型コロナ­ウイルス感­染症に係る­知事メッセ­ージ（第21回危機対­策本部会議­）（青森県危機対策本部）",
-      "url": "https://www.pref.aomori.lg.jp/koho/message.html"
     },
     {
       "date": "2020/10/19",
