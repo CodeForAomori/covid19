@@ -1,9 +1,29 @@
 {
   "newsItems": [
     {
-      "date": "2020/10/25",
+      "date": "2020/10/26",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2020/10/26",
+      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
+    },
+    {
+      "date": "2020/10/26",
+      "text": "新型コロナ­ウイルス感­染症に係る­知事メッセ­ージ（第23回危機対­策本部会議­）（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/message.html"
+    },
+    {
+      "date": "2020/10/26",
+      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について（医療薬務課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
+    },
+    {
+      "date": "2020/10/26",
+      "text": "新型コロナウイルス感染症に関する基本的対処方針について（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_taisyohoushin.html"
     },
     {
       "date": "2020/10/23",
@@ -17,23 +37,8 @@
     },
     {
       "date": "2020/10/23",
-      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について（医療薬務課）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
-    },
-    {
-      "date": "2020/10/23",
       "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）（高齢福祉保険課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
-    },
-    {
-      "date": "2020/10/22",
-      "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について（青森県危機対策本部）",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2020/10/22",
-      "text": "新型コロナ­ウイルス感­染症に係る­知事メッセ­ージ（第22回危機対­策本部会議­）（青森県危機対策本部）",
-      "url": "https://www.pref.aomori.lg.jp/koho/message.html"
     },
     {
       "date": "2020/10/22",
@@ -54,11 +59,6 @@
       "date": "2020/10/21",
       "text": "新型コロナウイルス感染症について（農林水産業関連）（農林水産政策課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/korona_nourin.html"
-    },
-    {
-      "date": "2020/10/19",
-      "text": "「あおもり観光新型コロナ対策推進宣言施設」登録制度について（観光企画課）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kkokusai/kanko/aomori_kanko_sengen.html"
     }
   ]
 }
