@@ -1,6 +1,16 @@
 {
   "newsItems": [
     {
+      "date": "2020/11/07",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2020/11/07",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
       "date": "2020/11/06",
       "text": "新型コロナ­ウイルス感­染症に係る­知事メッセ­ージ（11月4日定例記者会見・11月6日第26回危機対策本部会議）（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/message.html"
