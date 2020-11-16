@@ -1,17 +1,37 @@
 {
   "newsItems": [
     {
-      "date": "2020/11/15",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
-    },
-    {
-      "date": "2020/11/15",
+      "date": "2020/10/29",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
-      "date": "2020/11/11",
+      "date": "2020/10/26",
+      "text": "新型コロナ­ウイルス感­染症に係る­知事メッセ­ージ（第23回危機対­策本部会議­）（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/message.html"
+    },
+    {
+      "date": "2020/10/26",
+      "text": "新型コロナウイルス感染症の拡大に際しての電話や情報通信機器等を用いた診療等について（医療薬務課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/20200414_online_shinryou.html"
+    },
+    {
+      "date": "2020/10/26",
+      "text": "新型コロナウイルス感染症に関する基本的対処方針について（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_taisyohoushin.html"
+    },
+    {
+      "date": "2020/10/23",
+      "text": "飲食店がウィズコロナでV字回復する為の具体的ノウハウ＆デジタル活用セミナーのお知らせ【参加者募集中】（地域産業課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/shoko/chiikisangyo/seminer_restaurant_management_digital.html"
+    },
+    {
+      "date": "2020/10/23",
+      "text": "「ウイズコロナ 飲食店経営戦略・デジタル活用 コンサルティング事業」 参加企業募集のお知らせ（地域産業課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/shoko/chiikisangyo/bosyu_consultant_restaurant_management_digital.html"
+    },
+    {
+      "date": "2020/10/23",
       "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）（高齢福祉保険課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     }
