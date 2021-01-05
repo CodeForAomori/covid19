@@ -1,14 +1,19 @@
 {
   "newsItems": [
     {
-      "date": "2021/01/04",
+      "date": "2021/01/05",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2021/01/05",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
-      "date": "2021/01/04",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+      "date": "2021/01/05",
+      "text": "新型コロナウイルス感染症について（農林水産業関連）（農林水産政策課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/korona_nourin.html"
     },
     {
       "date": "2020/12/25",
