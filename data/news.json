@@ -1,6 +1,21 @@
 {
   "newsItems": [
     {
+      "date": "2021/01/09",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2021/01/09",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/01/09",
+      "text": "青森空港ご利用のみなさまへ（新型コロナウィルス関係）（青森空港管理事務所）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/airport/r2_oshirase_01.html"
+    },
+    {
       "date": "2021/01/08",
       "text": "新型コロナ­ウイルス感­染症に係る­知事メッセ­ージ（1月8日第30回危機対策本部会議）（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/message.html"
@@ -9,16 +24,6 @@
       "date": "2021/01/08",
       "text": "新型コロナウイルス感染症に係る危機対策本部会議の開催について（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_kikitaisakuhonbu.html"
-    },
-    {
-      "date": "2021/01/08",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
-    },
-    {
-      "date": "2021/01/08",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
     },
     {
       "date": "2021/01/08",
