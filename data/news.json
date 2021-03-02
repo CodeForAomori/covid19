@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2021/03/01",
+      "text": "青森県新型コロナウイルス感染症対応医療従事者等慰労金について【受付は終了しています。】（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020aomoricovidirou.html"
+    },
+    {
+      "date": "2021/03/01",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
