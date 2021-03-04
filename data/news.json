@@ -2,6 +2,16 @@
   "newsItems": [
     {
       "date": "2021/03/04",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2021/03/04",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/03/04",
       "text": "新型コロナウイルス対策関連事務連絡（高齢者施設等）（高齢福祉保険課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/welfare/kaigosisetu_tuuti.html"
     },
@@ -14,16 +24,6 @@
       "date": "2021/03/03",
       "text": "本業に活きる社会貢献活動セミナー～Withコロナ時代の経営戦略～（県民生活文化課）",
       "url": "https://www.pref.aomori.lg.jp/life/volunteer/syakaikouken-seminar2020.html"
-    },
-    {
-      "date": "2021/03/03",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
-    },
-    {
-      "date": "2021/03/03",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
     }
   ]
 }
