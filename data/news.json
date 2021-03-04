@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2021/03/04",
+      "text": "新型コロナウイルスワクチンの接種について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/covid19-vaccine.html"
+    },
+    {
       "date": "2021/03/03",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
