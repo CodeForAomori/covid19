@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2021/03/22",
+      "text": "新型コロナウイルス感染症対策関連経費情報（財政課）",
+      "url": "https://www.pref.aomori.lg.jp/kensei/yosan/yosan_covid-19.html"
+    },
+    {
+      "date": "2021/03/22",
       "text": "新型コロナウイルスワクチンの接種について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/covid19-vaccine.html"
     },
@@ -14,16 +19,6 @@
       "date": "2021/03/21",
       "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
-    },
-    {
-      "date": "2021/03/19",
-      "text": "旅館等の宿泊施設における新型コロナウイルス感染症への対応について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/2020covidshukuhaku.html"
-    },
-    {
-      "date": "2021/03/19",
-      "text": "新型コロナウイルス感染症に関する基本的対処方針について（青森県危機対策本部）",
-      "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_taisyohoushin.html"
     }
   ]
 }
