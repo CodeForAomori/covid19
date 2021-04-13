@@ -1,14 +1,19 @@
 {
   "newsItems": [
     {
-      "date": "2021/04/12",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+      "date": "2021/04/13",
+      "text": "新型コロナウイルス感染症対策ポスター（広報広聴課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kikaku/koho/stopcovid19poster.html"
     },
     {
-      "date": "2021/04/12",
+      "date": "2021/04/13",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/04/13",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
     }
   ]
 }
