@@ -1,6 +1,16 @@
 {
   "newsItems": [
     {
+      "date": "2021/04/24",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/04/24",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
       "date": "2021/04/23",
       "text": "「新型コロナウイルス感染症感染拡大防止協力金（青森市繁華街）」について \n【協力要請：令和3年4月27日（火）0時から令和3年5月9日（日）24時まで】（商工政策課）",
       "url": "https://www.pref.aomori.lg.jp/sangyo/shoko/kyoryokukin_aomoricity.html"
@@ -9,16 +19,6 @@
       "date": "2021/04/23",
       "text": "新型コロナウイルス感染症の感染拡大防止に向けた営業時間短縮の協力要請について（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/aomori_corona_ido.html"
-    },
-    {
-      "date": "2021/04/23",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
-    },
-    {
-      "date": "2021/04/23",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
     }
   ]
 }
