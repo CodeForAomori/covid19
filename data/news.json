@@ -2,23 +2,18 @@
   "newsItems": [
     {
       "date": "2021/05/06",
-      "text": "令和3年度新型コロナウイルス感染症による離職者等就労支援事業費補助金のご案内（労政・能力開発課）",
-      "url": "https://www.pref.aomori.lg.jp/sangyo/job/korona_kokokuhojo.html"
-    },
-    {
-      "date": "2021/05/06",
-      "text": "新型コロナウイルス感染症の感染拡大の影響等により解雇等された方への県営住宅の提供について（建築住宅課）",
-      "url": "https://www.pref.aomori.lg.jp/soshiki/kendo/kenju/mokutekigaishiyo.html"
-    },
-    {
-      "date": "2021/05/05",
       "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
     },
     {
-      "date": "2021/05/05",
+      "date": "2021/05/06",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/05/06",
+      "text": "令和3年度新型コロナウイルス感染症による離職者等就労支援事業費補助金のご案内（労政・能力開発課）",
+      "url": "https://www.pref.aomori.lg.jp/sangyo/job/korona_kokokuhojo.html"
     }
   ]
 }
