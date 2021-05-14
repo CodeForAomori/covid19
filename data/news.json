@@ -2,6 +2,16 @@
   "newsItems": [
     {
       "date": "2021/05/14",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/05/14",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2021/05/14",
       "text": "「STOP!コロナ差別相談窓口」を5月18日（火）に開設します。（県民生活文化課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kankyo/seikatsu/stopcovsabetusoudan.html"
     },
@@ -14,16 +24,6 @@
       "date": "2021/05/14",
       "text": "新型コロナウイルス感染症への対応に係るNPO法人運営関連情報（県民生活文化課）",
       "url": "https://www.pref.aomori.lg.jp/life/volunteer/npo_covid-19.html"
-    },
-    {
-      "date": "2021/05/13",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
-    },
-    {
-      "date": "2021/05/13",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
     }
   ]
 }
