@@ -1,14 +1,19 @@
 {
   "newsItems": [
     {
-      "date": "2021/05/16",
+      "date": "2021/05/17",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2021/05/17",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
     {
-      "date": "2021/05/16",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+      "date": "2021/05/17",
+      "text": "医療機関等における新型コロナウイルス感染症への対応について（院内感染対策）（医療薬務課）",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/new_corona_innaikansentaisaku.html"
     }
   ]
 }
