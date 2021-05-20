@@ -67,18 +67,6 @@
                 </div>
             </div>
             <div class="SideNavigation-BaseLinkBlock">
-                <div>
-                    <a
-                        href="https://aomori-takeout.fun"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        <img src="/aomori_takeout_big.png" alt="あおもりTAKEOUT" />
-                        <div>{{ $t('あおもりTAKEOUT応援団') }}</div>
-                    </a>
-                </div>
-            </div>
-            <div class="SideNavigation-BaseLinkBlock">
                 <div class="SideNavigation-BaseLinkHeader">
                     {{ $t('サイト運営') }}
                 </div>

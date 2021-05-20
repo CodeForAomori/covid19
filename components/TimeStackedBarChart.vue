@@ -333,67 +333,25 @@ const options: ThisTypedComponentOptionsWithRecordProps<
               id: 'day',
               stacked: true,
               gridLines: {
-                display: false
-              },
-              ticks: {
-                fontSize: 9,
-                maxTicksLimit: 20,
-                fontColor: '#808080',
-                maxRotation: 0,
-                minRotation: 0,
-                callback: (label: string) => {
-                  return label.split('/')[1]
-                }
-              }
-            },
-            {
-              id: 'month',
-              stacked: true,
-              gridLines: {
                 drawOnChartArea: false,
                 drawTicks: true,
                 drawBorder: false,
                 tickMarkLength: 10
               },
-              ticks: {
-                fontSize: 11,
+               ticks: {
+                fontSize: 10,
+                maxTicksLimit: 15,
                 fontColor: '#808080',
-                padding: 3,
-                fontStyle: 'bold',
+                maxRotation: 0,
+                minRotation: 0,
+                gridLines: {
+                  display: true
+                },                
                 callback: (label: string) => {
-                  const monthStringArry = [
-                    'Jan',
-                    'Feb',
-                    'Mar',
-                    'Apr',
-                    'May',
-                    'Jun',
-                    'Jul',
-                    'Aug',
-                    'Sep',
-                    'Oct',
-                    'Nov',
-                    'Dec'
-                  ]
-                  const mm = monthStringArry.indexOf(label.split(' ')[0]) + 1
-                  const year = new Date().getFullYear()
-                  const mdate = new Date(year + '-' + mm + '-1')
-                  let localString
-                  if (this.$root.$i18n.locale === 'ja-basic') {
-                    localString = 'ja'
-                  } else {
-                    localString = this.$root.$i18n.locale
-                  }
-                  return mdate.toLocaleString(localString, {
-                    month: 'short'
-                  })
+                  return ""+parseInt(label.split('/')[0])+"/"+label.split('/')[1];
                 }
-              },
-              type: 'time',
-              time: {
-                unit: 'month'
               }
-            }
+           }
           ],
           yAxes: [
             {
