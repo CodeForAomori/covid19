@@ -260,7 +260,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
               },
               ticks: {
                 fontSize: 10,
-                maxTicksLimit: 15,
+                maxTicksLimit: 7,
                 fontColor: '#808080',
                 maxRotation: 0,
                 minRotation: 0,
