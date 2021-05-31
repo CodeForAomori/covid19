@@ -2,6 +2,11 @@
   "newsItems": [
     {
       "date": "2021/05/31",
+      "text": "新型コロナウイルス感染症対策に係る知事コメント・知事メッセージ（青森県危機対策本部）",
+      "url": "https://www.pref.aomori.lg.jp/koho/message.html"
+    },
+    {
+      "date": "2021/05/31",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     },
