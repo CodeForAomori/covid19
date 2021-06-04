@@ -2,6 +2,21 @@
   "newsItems": [
     {
       "date": "2021/06/04",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/06/04",
+      "text": "新型コロナウイルス感染症への対応に係るNPO法人運営関連情報（県民生活文化課）",
+      "url": "https://www.pref.aomori.lg.jp/life/volunteer/npo_covid-19.html"
+    },
+    {
+      "date": "2021/06/04",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2021/06/04",
       "text": "青森県祭り・観光イベント 新型コロナウイルス感染症対策ガイドライン（観光企画課）",
       "url": "https://www.pref.aomori.lg.jp/soshiki/kkokusai/kanko/festival.html"
     },
@@ -9,16 +24,6 @@
       "date": "2021/06/04",
       "text": "新型コロナウイルス感染症に関する各種支援（青森県危機対策本部）",
       "url": "https://www.pref.aomori.lg.jp/koho/corona_aomori_shiensaku.html"
-    },
-    {
-      "date": "2021/06/03",
-      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
-    },
-    {
-      "date": "2021/06/03",
-      "text": "新型コロナウイルス感染症について（保健衛生課）",
-      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
     }
   ]
 }
