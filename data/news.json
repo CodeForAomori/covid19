@@ -1,14 +1,19 @@
 {
   "newsItems": [
     {
-      "date": "2021/06/16",
+      "date": "2021/06/26",
       "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
     },
     {
-      "date": "2021/06/16",
+      "date": "2021/06/26",
       "text": "新型コロナウイルス感染症について（保健衛生課）",
       "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/06/25",
+      "text": "学校等における新型コロナウイルスへの対応について（教育政策課）",
+      "url": "https://www.pref.aomori.lg.jp/bunka/education/coronavirus_menu.html"
     }
   ]
 }
