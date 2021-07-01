@@ -2,6 +2,16 @@
   "newsItems": [
     {
       "date": "2021/07/01",
+      "text": "新型コロナウイルス感染症に係る公表資料（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/kouhyousiryou.html"
+    },
+    {
+      "date": "2021/07/01",
+      "text": "新型コロナウイルス感染症について（保健衛生課）",
+      "url": "https://www.pref.aomori.lg.jp/welfare/health/wuhan-novel-coronavirus2020.html"
+    },
+    {
+      "date": "2021/07/01",
       "text": "令和4年度青森県公立学校教員採用候補者選考試験における新型コロナウイルス感染症に係る対応について（教職員課）",
       "url": "https://www.pref.aomori.lg.jp/bunka/education/r4kyousai-nitteihenkou.html"
     },
